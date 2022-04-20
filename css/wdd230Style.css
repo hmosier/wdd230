@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Zen+Kurenaido&display=swap");
+
+body {
+    background-color: #64c2a1;
+    font-family: 'Zen Kurenaido', serif;
+    padding: 5px 25px;
+    margin: 0;
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+}
+
+p {
+    font-size: 1em;
+    font-family:'Zen Kurenaido', serif;
+    line-height: 1.25em;
+    color: #000000;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    background-color: #002236;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 1px #3F4045;
+    border: 2px solid #000000;
+}
+
+img{
+    width: 50%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 1px #3F4045;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+h1 {
+    grid-column: 2/-1;
+    grid-row: 1/2;
+    text-align: left;
+    margin-top: 3em;
+}
+
+h2 {
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 1px #3F4045;
+    border: 2px solid #002236;
+    padding: 1em;
+}
+
+footer {
+    background-color: #002236;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 1px #3F4045;
+    border: 2px solid #000000;
+    padding: .1em;
+    text-align: center;
+}
