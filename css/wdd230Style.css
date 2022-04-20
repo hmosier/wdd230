@@ -10,24 +10,23 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
-    color: #FFFFFF;
+    color: #002236;
 }
 
 p {
     font-size: 1em;
     font-family:'Zen Kurenaido', serif;
-    line-height: 1.25em;
-    color: #000000;
+    line-height: 1.25em;;
 }
 
 header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
-    background-color: #002236;
+    background-color: #cdd2eb;
     border-radius: 10px;
     box-shadow: 1px 1px 4px 1px #3F4045;
-    border: 2px solid #000000;
+    border: 2px solid #002236;
 }
 
 img{
@@ -46,22 +45,37 @@ img{
 h1 {
     grid-column: 2/-1;
     grid-row: 1/2;
-    text-align: left;
-    margin-top: 3em;
+    padding: 3em;
 }
 
-h2 {
+h2, .note {
     border-radius: 10px;
     box-shadow: 1px 1px 4px 1px #3F4045;
     border: 2px solid #002236;
     padding: 1em;
+    background-color: #cdd2eb;
+    text-align: center;
+}
+
+ul {
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 1px #3F4045;
+    border: 2px solid #002236;
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #cdd2eb;
 }
 
 footer {
-    background-color: #002236;
+    background-color: #cdd2eb;
     border-radius: 10px;
     box-shadow: 1px 1px 4px 1px #3F4045;
-    border: 2px solid #000000;
+    border: 2px solid #002236;
     padding: .1em;
     text-align: center;
+}
+
+#copyright #updated {
+    color: #FFFFFF;
 }
