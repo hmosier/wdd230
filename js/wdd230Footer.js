@@ -1,10 +1,6 @@
-
-const modified = new Date(document.lastModified);
-
-const year = new Date();
-
+const date = new Date();
+const currentYear = date.getFullYear();
 const copyright = "\u00A9";
 
-document.getElementById("copyright").innerHTML = `${copyright} ${year.getFullYear()} .:|:. Hannah Mosier .:|:. Ohio`;
-
-document.getElementById("updated").innerHTML = `Last Updated: ${modified}`;
+document.querySelector("#year").textContent = `${copyright} ${currentYear} .:|:. Hannah Mosier .:|:. Ohio`;
+document.querySelector("#updated").textContent = `Last Updated: ${document.lastModified}`;

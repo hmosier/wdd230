@@ -6,11 +6,16 @@ body {
     padding: 5px 25px;
     margin: 0;
     color: #000000;
+    align-items: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
     color: #002236;
+}
+
+.width {
+    max-width: 650px;
 }
 
 p {
@@ -19,27 +24,25 @@ p {
     line-height: 1.25em;;
 }
 
-header{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1em;
-    background-color: #cdd2eb;
+header, footer, ul, h2 {
     border-radius: 10px;
     box-shadow: 1px 1px 4px 1px #3F4045;
-    border: 2px solid #002236;
+    border: 1px solid #002236;
+}
+
+header{
+    display: grid;
+    grid-template-columns: .25fr 1fr;
+    grid-gap: 1em;
+    background-color: #cdd2eb;
+    align-items: center;
 }
 
 img{
-    width: 50%;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    text-align: center;
+    width: 75%;
     border-radius: 10px;
-    box-shadow: 1px 1px 4px 1px #3F4045;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-left: 5em;
-    margin-right: 5em;
+    justify-content: center;
+    padding: 4em;
 }
 
 h1 {
@@ -48,19 +51,13 @@ h1 {
     padding: 3em;
 }
 
-h2, .note {
-    border-radius: 10px;
-    box-shadow: 1px 1px 4px 1px #3F4045;
-    border: 2px solid #002236;
+h2 {
     padding: 1em;
     background-color: #cdd2eb;
     text-align: center;
 }
 
 ul {
-    border-radius: 10px;
-    box-shadow: 1px 1px 4px 1px #3F4045;
-    border: 2px solid #002236;
     padding-left: 3em;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -69,9 +66,6 @@ ul {
 
 footer {
     background-color: #cdd2eb;
-    border-radius: 10px;
-    box-shadow: 1px 1px 4px 1px #3F4045;
-    border: 2px solid #002236;
     padding: .1em;
     text-align: center;
 }
