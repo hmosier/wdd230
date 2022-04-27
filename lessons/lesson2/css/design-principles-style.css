@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Zen+Kurenaido&display=swap");
+
+body {
+    background-color: #64c2a1;
+    font-family: 'Zen Kurenaido', serif;
+    padding: 5px 25px;
+    margin: 0;
+    color: #000000;
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    color: #002236;
+}
+
+header, main, footer {
+    background-color: white;
+}
