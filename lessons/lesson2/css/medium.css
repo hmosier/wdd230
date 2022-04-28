@@ -1,0 +1,16 @@
+@media (min-width: 32.5em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+    .proximity {
+        grid-column: 1/2;
+    }
+    .repetition {
+        grid-column: 2/-1;
+    }
+    .contrast {
+        grid-column: 1/-1;
+    }
+}

@@ -1,0 +1,22 @@
+@media (min-width: 32.5em) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    header, footer {
+        border-radius: 10px;
+    }
+
+    header{
+        display: grid;
+        grid-template-columns: .25fr 1fr;
+        grid-gap: 1em;
+        background-color: #cdd2eb;
+        align-items: center;
+        justify-content: center;
+    }
+}
