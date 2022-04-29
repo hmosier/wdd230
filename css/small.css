@@ -4,6 +4,7 @@ body {
     padding: 1rem;
     color: #000000;
     align-content: center;
+    max-width: 600px;
 }
 
 h1, h2, h3, h4, h5, h6 {
