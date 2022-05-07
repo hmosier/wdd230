@@ -19,9 +19,14 @@ h1, h2, h3 {
 p {
     background-color: #f3ffc6;
     padding: .5rem;
+    border-radius: 10px;
 }
 
-nav, .audience, .persona1, .persona2, footer, .scenarios, .color1, .colors, .typeface1, .typeface2 {
+img {
+    width: 100%;
+}
+
+nav, .audience, .persona1, .persona2, footer, .scenarios, .color1, .colors, .typeface1, .typeface2, .name, .logo, .purpose {
     border-radius: 10px;
     box-shadow: 1px 1px 4px 1px #34403A;
     border: 1px solid #d8973c;
@@ -69,19 +74,19 @@ main, header, footer {
 }
 
 
+/* typography formatting */
+.typeface2 {
+    display: grid;
+    grid-template-columns: .75fr 1fr;
+}
 
 /* color scheme formatting */
-
 .colors {
-    width: 100%;
-    margin: auto;
+    margin: 0;
     text-align: center;
 }
 .colors th {
     background-color: #f3ffc6;
-}
-.colors td {
-    width: 25%;
 }
 .primary {
     background-color: #285238;
