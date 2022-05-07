@@ -1,0 +1,17 @@
+@media (min-width: 32.5em) {
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(3em, 1fr)); 
+    }
+
+    .typeface {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .persona1, .persona2 {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

@@ -48,24 +48,37 @@ nav ul a:hover {
     box-shadow: 1px 1px 4px 1px #34403A;
 }
 
-.persona1, .persona2 {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
+header, footer, #year, #updated {
+    background-color: #285238;
+    margin: 0;
+    text-align: center;
+    color: #f3ffc6;
 }
+
+main, header, footer {
+    padding: 1em;
+}
+
+
+
+/* target audience formatting */
+
+
+
+
+/* color scheme formatting */
 
 .colors {
     width: 100%;
-    min-width: 350px;
     margin: auto;
     text-align: center;
 }
 .colors th {
-    background-color: #999999;
+    background-color: #f3ffc6;
 }
 .colors td {
     width: 25%;
 }
-
 .primary {
     background-color: #285238;
     color: white;
@@ -79,4 +92,8 @@ nav ul a:hover {
 .accent2 {
     background-color: #34403A;
     color: white;
+}
+#colored-background {
+    background-color: #285238;
+    color: #f3ffc6
 }
