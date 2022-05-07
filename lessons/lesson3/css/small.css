@@ -1,0 +1,46 @@
+body {
+    background-color: #285238;
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+    color: #34403A;
+    align-content: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #d8973c;
+    background-color: #285238;
+}
+
+p {
+    background-color: #f3ffc6;
+    padding: .5rem;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+.colors th {
+    background-color: #999999;
+}
+.colors td {
+    width: 25%;
+}
+
+.primary td {
+    background-color: #285238;
+    color: white;
+}
+.secondary td {
+    background-color: #f3ffc6;
+}
+.accent1 {
+    background-color: #d8973c;
+}
+.accent2{
+    background-color: #34403A;
+    color: white;
+}
