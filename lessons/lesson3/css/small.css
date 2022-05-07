@@ -80,6 +80,9 @@ main, header, footer {
     display: grid;
     grid-template-columns: .75fr 1fr;
 }
+.typeface3 {
+    text-align: center;
+}
 
 /* color scheme formatting */
 .colors {
