@@ -12,13 +12,18 @@ h1, h2, h3 {
     background-color: #285238;
 }
 
+h3 {
+    text-align: right;
+    padding: .5rem;
+}
+
 p {
     background-color: #f3ffc6;
     padding: .5rem;
 }
 
 nav a {
-    color: #d8973c;
+    color: #f3ffc6;
     line-height: 2.5rem;
     padding: .5rem;
     text-align: center;
@@ -41,7 +46,7 @@ nav ul a:link {
 }
 
 nav ul a:hover {
-    background-color: #d8973c;
+    background-color: #f3ffc6;
     border-radius: 10px;
     color: #285238;
     text-decoration: underline;
