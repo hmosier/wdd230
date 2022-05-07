@@ -34,6 +34,7 @@ nav, .audience, .persona1, .persona2, footer, .scenarios, .color1, .colors, .typ
 }
 
 nav a {
+    display: block;
     color: #f3ffc6;
     line-height: 2.5rem;
     padding: .5rem;
