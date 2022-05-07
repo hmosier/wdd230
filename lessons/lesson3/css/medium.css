@@ -4,14 +4,32 @@
         grid-template-columns: repeat(auto-fit, minmax(3em, 1fr)); 
     }
 
+    nav {
+        font-size: 1.1rem;
+    }
+
+
+    /* typography formatting */
     .typeface {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
+
+    /* target audience formatting */
+    h3 {
+        text-align: right;
+        padding: .5rem;
+    }
+
     .persona1, .persona2 {
         display:grid;
         grid-template-columns: 30% 70%;
+    }
+    #right-align1, #right-align2 {
+        text-align: right;
+        padding: .5rem;
+        text-decoration: underline;
     }
 
 }
