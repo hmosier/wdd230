@@ -32,6 +32,7 @@ nav ul {
     padding: 0;
     margin: 0;
     display: none;
+    font-size: .8rem;
 }
 
 nav ul li a {
@@ -53,6 +54,7 @@ nav button {
 img {
     width: 200px;
     border-radius: 10px;
+    margin: 1vw;
 }
 
 nav ul li.active a {
@@ -86,4 +88,9 @@ nav ul.open {
 
 .date {
     grid-column: -1/-2;
+}
+
+img.social {
+    width: 30px;
+    border-radius: 75px;
 }
