@@ -40,19 +40,19 @@ nav ul.open {
     display: block;
 }
 
-#hamburgerBtn span:nthchild(1) {
+#hamburger span:nthchild(1) {
     display: block;
 }
 
-#hamburgerBtn span:nthchild(2) {
+#hamburger span:nthchild(2) {
     display: none;
 }
 
-#hamburgerBtn.open span:nthchild(1) {
+#hamburger.open span:nthchild(1) {
     display: none;
 }
 
-#hamburgerBtn.open span:nthchild(2) {
+#hamburger.open span:nthchild(2) {
     display: block;
 }
 
