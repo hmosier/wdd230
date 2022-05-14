@@ -6,12 +6,14 @@ function toggleMenu() {
 const x = document.getElementById("hamburger")
 x.onclick = toggleMenu;
 
-const datefieldUK = document.querySelector(".date");
-
+const datefieldUK = document.querySelector("#currentDate");
 const now = new Date();
-
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"
 }).format(now);
-
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
+
+const date = new Date();
+const copyright = "\u00A9";
+document.querySelector("#year").textContent = `${copyright} ${date.getFullYear()} | Chillicothe Mound Chamber of Commerce | Hannah Mosier | WDD 230 Project | Last Modification: ${document.lastModified}`;

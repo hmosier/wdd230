@@ -15,6 +15,9 @@
     </head>
     <body>
         <header>
+            <picture>
+                <img src="images/chill-mound-logo.png" alt="Chillicothe Mound Chamber of Commerce Logo">
+            </picture>
             <nav>
                 <button id="hamburger">
                     <span>
@@ -25,21 +28,45 @@
                     </span>
                 </button>
                 <ul id="primary">
-                    <li class="active"><a href="#">Home</a></li>
+                    <li class="active"><a href="#">Home</a>
+                    </li>
                     <li><a href="#">Discover</a></li>
                     <li><a href="#">Directory</a></li>
-                    <li><a href="#">Employment</a></li>   
+                    <li><a href="#">Join</a></li>   
                     <li><a href="#">Contact</a></li>                 
                 </ul>
             </nav>
-            <img src="images/chill-mound-logo.png" alt="Chillicothe Mound Chamber of Commerce Logo">
-            <img class="social" src="images/facebook-logo.png" alt="facebook icon">
-            <img class="social" src="images/linkedin-logo.png" alt="linkedin icon">
-            <p class="date"></p>
+            <div class="social">
+                <a href="http://www.facebook.com" alt="facebook icon"><img src="images/facebook-logo.png" alt="facebook logo"></a>
+                <a href="http://www.linkedin.com" alt="linkedin icon"><img src="images/linkedin-logo.png" alt="linkedin logo"></a>
+            </div>
+            <div class="date">
+                <span id="currentDate"></span>
+            </div>
         </header>
         <main>
+            <div class="placeholder-box hero">
+                <p>Hero with Site Name and Call to Action</p>
+            </div>
+            <div>
+                <p class="placeholder-box news">News Release</p>
+            </div>
+            <div class="placeholder-box event">
+                <p>Event</p>
+            </div>
+            <div class="placeholder-box weather">
+                <p>Weather</p>
+            </div>
+            <div>
+                <p class="placeholder-box join">Join</p>
+            </div>
+   
 
-
+            <div class="placeholder-box spotlight">
+                <p class="placeholder-box spot">Spotlight 1</p>
+                <p class="placeholder-box spot">Spotlight 2</p>
+                <p class="placeholder-box spot">Spotlight 3</p>
+            </div>
         </main>
         <footer>
             <img src="images/chill-mound-icon.png">
@@ -49,6 +76,7 @@
             <p>moundcommerce.com</p>
             <p>+(740)-555-5555</p>
             <p>Location map</p>
+            <p id="year"></p>
         </footer>
         <script src="js/c-mound.js"></script>
     </body>

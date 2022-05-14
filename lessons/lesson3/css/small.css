@@ -12,7 +12,7 @@ main, header, footer {
 
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
-    color: #d8973c;
+    color: #f3be38;
     background-color: #285238;
 }
 
@@ -100,7 +100,7 @@ main, header, footer {
     background-color: #f3ffc6;
 }
 .accent1 {
-    background-color: #d8973c;
+    background-color: #f3be38;
     color: black;
 }
 .accent2 {

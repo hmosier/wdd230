@@ -1,18 +1,22 @@
 body {
-    background-color: #D8973C;
+    background-color: #f3be38;
     font-family: 'Quicksand' sans-serif;
     color: #34403A;
+    margin: auto;
+    align-content: center;
 }
 
-header {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr; */
-    display: flex;
+header, footer {
     align-items: center;
     justify-items: center;
     background-color: #258238;
     border-radius: 10px;
     box-shadow: 1px 1px 4px 1px #34403A;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 header p {
@@ -86,11 +90,64 @@ nav ul.open {
     display: block;
 }
 
-.date {
-    grid-column: -1/-2;
-}
-
-img.social {
+a img {
     width: 30px;
     border-radius: 75px;
+}
+
+#currentDate {
+    width: 100%;
+}
+
+/* .social {
+
+} */
+
+
+
+/* main styling */
+main {
+    display: grid;
+}
+
+main div {
+    background-color: #f3be38;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 1px #34403A;
+    text-align: center;
+}
+
+div.spotlight {
+    display: grid;
+}
+
+.spot {
+    background-color: #F3FFC6;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 1px #34403A;
+    text-align: center;
+}
+
+
+/* footer styling */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+footer img {
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+#year {
+    justify-content: center;
+    align-items: center;
 }
