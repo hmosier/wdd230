@@ -17,6 +17,10 @@ header, footer {
 header {
     display: flex;
     flex-flow: row wrap;
+    color: #F3FFC6;
+    align-items: center;
+    justify-items: center;
+    align-content: space-between;
 }
 
 header p {
@@ -108,13 +112,18 @@ a img {
 /* main styling */
 main {
     display: grid;
+    grid-gap: 1rem;
+    padding: .5rem;
 }
 
 main div {
-    background-color: #f3be38;
+    background-color: #F3FFC6;
     border-radius: 10px;
     box-shadow: 1px 1px 4px 1px #34403A;
     text-align: center;
+    color: #34403A;
+    margin: auto;
+    width: 100%;
 }
 
 div.spotlight {
@@ -122,10 +131,17 @@ div.spotlight {
 }
 
 .spot {
-    background-color: #F3FFC6;
+    background-color: #258238;
     border-radius: 10px;
-    box-shadow: 1px 1px 4px 1px #34403A;
+    box-shadow: 1px 1px 4px 1px #f3be38;
     text-align: center;
+    color: #F3FFC6;
+    margin: .5rem 1vw;
+    padding: .5rem;
+}
+
+#spot3 {
+    display: none;
 }
 
 
@@ -135,6 +151,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-items: center;
+    color: #F3FFC6;
 }
 
 footer img {
@@ -147,7 +164,19 @@ footer p {
     margin: 0;
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    background-color: white;
+    color: #34403A;
+    padding: .25rem;
+}
+
 #year {
     justify-content: center;
     align-items: center;
+    color: #F3FFC6
 }

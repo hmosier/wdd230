@@ -21,4 +21,8 @@
     img {
         margin-left: 1vw;
     }
+
+    #spot3 {
+        display: list-item;
+    }
 }
