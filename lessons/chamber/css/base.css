@@ -1,9 +1,13 @@
 body {
-    background-color: #f3be38;
-    font-family: 'Quicksand' sans-serif;
+    background-color: #258238;
+    font-family: 'Quicksand', sans-serif;
     color: #34403A;
     margin: auto;
     align-content: center;
+}
+
+main, header, footer {
+    border: 1px solid #f3be38;
 }
 
 header, footer {
@@ -11,7 +15,6 @@ header, footer {
     justify-items: center;
     background-color: #258238;
     border-radius: 10px;
-    box-shadow: 1px 1px 4px 1px #34403A;
 }
 
 header {
@@ -51,6 +54,18 @@ nav ul li a {
     border-top: 1px solid rgba(0,0,0,.5);
 }
 
+nav ul a:link {
+    text-decoration: underline;
+}
+
+nav ul a:hover {
+    background-color: #f3ffc6;
+    border-radius: 10px;
+    color: #f3ffc6;
+    text-decoration: underline;
+    box-shadow: 1px 1px 4px 1px #34403A;
+}
+
 nav button {
     margin: .2rem 2vw;
     background: transparent;
@@ -80,6 +95,7 @@ nav ul.open {
 
 #hamburger span:nth-child(1) {
     display: block;
+    color: #F3FFC6
 }
 
 #hamburger span:nth-child(2) {
@@ -114,16 +130,17 @@ main {
     display: grid;
     grid-gap: 1rem;
     padding: .5rem;
+    border-radius: 10px;
 }
 
 main div {
     background-color: #F3FFC6;
     border-radius: 10px;
-    box-shadow: 1px 1px 4px 1px #34403A;
     text-align: center;
     color: #34403A;
     margin: auto;
     width: 100%;
+    border: 1px solid #f3be38;
 }
 
 div.spotlight {
