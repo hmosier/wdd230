@@ -33,4 +33,13 @@
         grid-area: 4/1/5/3;
     }
 
+    .join button {
+        margin-top: 1rem;
+    }
+    
+    .action-call {
+        right: 4rem;
+        bottom: 4rem;
+    }
+
 }
