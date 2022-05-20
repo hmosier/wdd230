@@ -2,4 +2,35 @@
     img {
         width: 250px;
     }
+
+    main {
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 1rem;
+    }
+    .hero {
+        grid-area: 1/1/2/3;
+    }
+    .news {
+        grid-area: 2/1/3/3;
+    }
+    
+    .event {
+        grid-area: 5/1/6/2;
+    }
+    
+    .weather {
+        grid-area: 5/2/6/3;
+    }
+
+    .spotlight {
+        grid-area:3/1/4/3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+        
+    .join {
+        display: block;
+        grid-area: 4/1/5/3;
+    }
+
 }

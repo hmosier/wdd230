@@ -11,6 +11,7 @@ main, header, footer {
 }
 
 header, footer {
+    display: flex;
     align-items: center;
     justify-items: center;
     background-color: #258238;
@@ -18,7 +19,6 @@ header, footer {
 }
 
 header {
-    display: flex;
     flex-flow: row wrap;
     color: #F3FFC6;
     align-items: center;
@@ -161,10 +161,36 @@ div.spotlight {
     display: none;
 }
 
+.hero {
+    grid-row: 1/2;
+}
+.action-call {
+    position: absolute;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+.news {
+    grid-row: 4/5;
+    padding: .5rem;
+}
 
+.event {
+    grid-row: 2/3;
+}
+
+.weather {
+    grid-row: 3/4;
+}
+
+.join {
+    display: none;
+}
+
+.spotlight {
+    grid-row: 5/6;
+}
 /* footer styling */
 footer {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
