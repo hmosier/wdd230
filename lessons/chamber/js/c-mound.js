@@ -17,3 +17,12 @@ datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 const date = new Date();
 const copyright = "\u00A9";
 document.querySelector("#year").textContent = `${copyright} ${date.getFullYear()} | Chillicothe Mound Chamber of Commerce | Hannah Mosier | WDD 230 Project | Last Modification: ${document.lastModified}`;
+
+let weekDay = date.getDay();
+let message = null;
+if (weekDay === 2 || weekDay === 3) {
+    message = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+} else {
+    message = null;
+}
+document.querySelector("#message").textContent = message;

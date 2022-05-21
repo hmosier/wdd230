@@ -5,6 +5,7 @@ body {
     margin: auto;
     align-content: center;
     padding: .5rem;
+    text-align: center;
 }
 
 main, header, footer {
@@ -117,23 +118,22 @@ nav ul.open {
     border-radius: 75px;
 }
 
-.date {
-    display: flex;
-}
-
 #currentDate {
-    width: 100%;
     color: #F3FFC6;
-    justify-content: center;
 }
 
-
+#message {
+    border: solid 1px #f3be38;
+    background-color: #F3FFC6;
+    width: 100%;
+}
 
 /* main styling */
-h1 {
+/* h1 {
     position: absolute;
     margin: 1rem;
-}
+    color: #F3FFC6;
+} */
 
 main {
     display: grid;
@@ -178,10 +178,10 @@ main div {
     width: 90%;
     max-width: 650px;
 }
-button.action-call {
-    position: relative;
-    bottom: 3rem;
-    left: 3rem;
+#action-call {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
 }
 .news {
     grid-row: 4/5;
@@ -226,7 +226,7 @@ footer img {
 }
 
 footer p {
-    margin: 0;
+    margin: .25rem;
 }
 
 footer a {

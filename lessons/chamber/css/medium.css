@@ -36,10 +36,10 @@
     .join button {
         margin-top: 1rem;
     }
-    
-    .action-call {
-        right: 4rem;
-        bottom: 4rem;
+
+    #action-call {
+        right: 20px;
+        bottom: 30px;
     }
 
 }
