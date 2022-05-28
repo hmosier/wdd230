@@ -50,7 +50,9 @@
             <div class="placeholder-box hero">
                 <h1>Chillicothe Mound Chamber of Commerce</h1>
                 <picture>
-                    <img id="hero-img" alt="Fields in a small town" src="images/chilli-mound-hero-image.jpg">
+                    <source media="(max-width 799px)" srcset="medium-wdd230-org/jpg">
+                    <source media="(m-width 800px)" srcset="large-wdd230-org/jpg">
+                    <img id="hero-img" alt="Fields in a small town" src="images/large-wdd230-org.jpg">
                 </picture>
                 <button id="action-call">Join Now!</button>
                 <p></p>
@@ -67,8 +69,8 @@
                 <p>Join us for the Grand Opening of The Diamond Shack, Thursday at 1:00pm</p>
             </div>
             <div class="placeholder-box weather">
-                <h3>Weather</h3>
-                <p>I feel like I need to pull actual weather from Chillicothe from another website here.</p>
+                <p>Current Weather</p>
+                <span id="windChill"></span>
             </div>
             <div class="placeholder-box join">
                 <button>Join Us!</button>
@@ -111,5 +113,6 @@
             <p id="year"></p>
         </footer>
         <script src="js/c-mound.js"></script>
+        <script src="js/windchill.js"></script>
     </body>
 </html>
