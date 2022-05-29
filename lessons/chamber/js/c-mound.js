@@ -20,7 +20,7 @@ document.querySelector("#year").textContent = `${copyright} ${date.getFullYear()
 
 let weekDay = date.getDay();
 let message = null;
-if (weekDay === 2 || weekDay === 3) {
+if (weekDay === 1 || weekDay === 2) {
     message = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
 } else {
     message = null;
