@@ -135,7 +135,7 @@ nav ul.open {
     color: #F3FFC6;
 } */
 
-main {
+main.index {
     display: grid;
     grid-gap: .5rem;
     padding: .5rem;
