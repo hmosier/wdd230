@@ -42,11 +42,76 @@
         bottom: 40px;
     }
 
+
+
     main.discover {
         display: grid;
         grid-gap: .5rem;
         border-radius: 10px;
         color: #F3FFC6;
     }
+    
+    .disc_header1 {
+        grid-area: 1/1/2/-1;
+    }
 
+    .disc_header2 {
+        grid-area: 2/1/3/2;
+    }
+
+    .disc_para1 {
+        grid-area: 3/1/4/2;
+    }
+
+    .disc_img1 {
+        grid-area: 2/2/4/3;
+    }
+
+    .disc_header3 {
+        grid-area: 2/3/3/4;
+    }
+
+    .disc_header4 {
+        grid-area: 4/2/5/3;
+    }
+
+    .disc_header5 {
+        grid-area:4/4/5/5;
+    }
+
+    .disc_header6 {
+        grid-area: 6/3/7/4;
+    }
+
+    .disc_para2 {
+        grid-area: 3/3/4/4;
+    }
+
+    .disc_para3 {
+        grid-area: 5/2/6/3;
+    }
+    
+    .disc_para4 {
+        grid-area: 5/4/6/5;
+    }
+
+    .disc_para5 {
+        grid-area: 7/3/8/4;
+    }
+
+    .disc_img2 {
+        grid-area: 2/4/4/5;
+    }
+
+    .disc_img3 {
+        grid-area: 4/1/6/2;;
+    }
+
+    .disc_img4 {
+        grid-area: 4/3/6/4;
+    }
+
+    .disc_img5 {
+        grid-area: 6/2/8/3;
+    }
 }
