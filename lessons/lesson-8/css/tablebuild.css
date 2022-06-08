@@ -1,0 +1,56 @@
+:root {
+    --back: #99b3ff;
+    --back2: #5674a4e3;
+    --header: #000000;
+	--header2: #ffffff;
+	--border: #b5b5b5;
+	--text: #3d3d3d;
+	--shadow: #afbdd0;
+	--zebra: #ededed;
+    font-family: "Ubuntu", sans-serif;
+}
+
+table {
+	margin: 1rem auto;
+	border: thin solid var(--border);
+	box-shadow: 10px 10px 10px var(--shadow);
+	border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+	color: var(--header);
+	font-size: .75rem;
+    background-color: var(--back);
+    box-shadow: 10px 10px 10px var(--shadow);
+}
+
+th:first-child {
+	background-color: var(--back);
+	color: var(--header);
+    font-size: 2rem;
+}
+tr:nth-child(2) th {
+    background-color: var(--back2);
+    color: var(--header2);
+    font-size: 1.1rem;
+}
+
+th, td, caption {
+	padding: 7px 15px;
+	border: 1px solid var(--border);
+}
+
+td.goal {
+    background-color: var(--back2);
+    color: var(--header2);
+}
+
+td {
+	text-align: center;
+    color: var(--text);
+}
+
+tbody tr:nth-child(odd) {
+	background-color: var(--zebra);
+}
