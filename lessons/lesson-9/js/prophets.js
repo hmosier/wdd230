@@ -12,10 +12,10 @@ const output = (prophets) => {
             name.textContent = `${prophet[i].name} ${prophet[i].lastname}`;
 
             let dob = document.createElement("p")
-            dob.textContent = prophet[i].birthdate;
+            dob.textContent = `Date of Birth: ${prophet[i].birthdate}`;
 
-            let order = document.createElement("p")
-            order.textContent = `${prophet[i].order} Latter-day President`;
+            let birthplace = document.createElement("p")
+            birthplace.textContent = `Place of Birth: ${prophet[i].birthplace}`;
 
             let portrait = document.createElement("img")
             portrait.setAttribute = (src, prophet[i].imageurl);
