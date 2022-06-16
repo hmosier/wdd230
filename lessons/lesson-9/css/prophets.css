@@ -18,7 +18,7 @@ h1 {
 
 h1, h2 {
     color: #4c4cbd;
-    font-family: 'Arvo', serif;
+    font-family: 'Boogaloo', serif; 
 }
 
 h2 {
@@ -47,11 +47,11 @@ p {
 .cards section {
     background-color: #bbb;
     border: 1px solid #555585;
-    padding: .5rem;
+    padding: .2rem;
 }
 
 section img {
-    width: 175px;
+    width: 150px;
     height: auto;
     box-shadow: 1px 1px 4px 1px #34403A;
 }
@@ -62,8 +62,7 @@ section img {
 	}
     
     .cards section {
-        width: 85%;
-        margin: .5rem;
+        margin: .2rem;
     }
 
     section img {
