@@ -24,8 +24,6 @@ function output (prophets) {
             card.appendChild(dob);
             card.appendChild(order);
             card.appendChild(portrait);
-
-            document.querySelector("#cards").appendChild(card);
         }
     );
 }
@@ -39,3 +37,5 @@ async function getProphets() {
         throw Error(response.statusText);
     }
 }
+
+getProphets();
