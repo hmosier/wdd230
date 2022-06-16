@@ -5,22 +5,32 @@
 }
 
 body {
-    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 h1 {
     border: 1px solid #ccc;
     padding: 15px;
     background-color: #bed;
+    color: #242463;
+    margin-bottom: 1rem;
 }
 
 h2 {
     padding: .25rem;
+    color: #242463;
 }
 
 footer {
     border-top: 1px solid #777;
 }
+
+p {
+    font-size: .75rem;
+}
+
 
 .cards {
     margin-left: 1rem;
@@ -29,8 +39,10 @@ footer {
     grid-gap: 1rem;
 }
 
-.cards section:nth-child(even) {
+.cards section {
     background-color: #bbb;
+    border: 1px solid black;
+    padding: .5rem;
 }
 
 .highlight {
@@ -40,4 +52,14 @@ footer {
 section img {
     width: 200px;
     height: auto;
+}
+
+@media (max-width: 29.3rem) {
+	.list section img {
+		display: block;
+	}
+
+    section img {
+        display: none;
+    }
 }

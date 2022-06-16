@@ -15,25 +15,27 @@ getProphets();
 
 function output (data) {
     data.prophets.forEach(prophet => {
-            let card = document.createElement("section")
-            let name = document.createElement("h2")
-            let dob = document.createElement("p")
-            let birthplace = document.createElement("p")
-            let img = document.createElement("img")
+            let card = document.createElement("section");
+            let h2 = document.createElement("h2");
+            let dob = document.createElement("p");
+            let birthplace = document.createElement("p");
+            let img = document.createElement('img');
 
-            name.textContent = `${prophet.name} ${prophet.lastname}`;
+            let fullName = `${prophet.name} ${prophet.lastname}`;
+
+            h2.textContent = `${fullName}`;
             dob.textContent = `Date of Birth: ${prophet.birthdate}`;
             birthplace.textContent = `Place of Birth: ${prophet.birthplace}`;
-            img.setAttribute = ("src", prophet.imageurl);
-            img.setAttribute = ("alt", `Portrait of ${name} - ${prophet.order}th Latter-day President`);
-            img.setAttribute = ("loading", "lazy");
+            img.setAttribute('src', prophet.imageurl);
+            img.setAttribute('alt', `Portrait of President ${fullName} - ${prophet.order}th Latter-day President`);
+            img.setAttribute('loading', 'lazy');
 
-            card.append(name);
+            card.append(h2);
             card.appendChild(dob);
             card.appendChild(birthplace);
             card.append(img);
-            
-            cards.append(card)
+
+            cards.append(card);
         }
     );
 }
