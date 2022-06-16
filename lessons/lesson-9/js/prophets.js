@@ -19,20 +19,21 @@ function output (data) {
             let name = document.createElement("h2")
             let dob = document.createElement("p")
             let birthplace = document.createElement("p")
-            let portrait = document.createElement("img")
+            let img = document.createElement("img")
 
             name.textContent = `${prophet.name} ${prophet.lastname}`;
             dob.textContent = `Date of Birth: ${prophet.birthdate}`;
             birthplace.textContent = `Place of Birth: ${prophet.birthplace}`;
+            img.setAttribute = ("src", prophet.imageurl);
+            img.setAttribute = ("alt", `Portrait of ${name} - ${prophet.order}th Latter-day President`);
+            img.setAttribute = ("loading", "lazy");
 
-            portrait.setAttribute = ("src", prophet.imageurl);
-            portrait.setAttribute = ("alt", `Portrait of ${name} - ${prophet.order}th Latter-day President`);
-            portrait.setAttribute = ("loading", "lazy");
-
-            card.appendChild(name);
+            card.append(name);
             card.appendChild(dob);
             card.appendChild(birthplace);
-            card.appendChild(portrait);
+            card.append(img);
+            
+            cards.append(card)
         }
     );
 }
