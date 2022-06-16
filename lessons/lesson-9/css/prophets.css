@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -14,21 +13,27 @@ h1 {
     border: 1px solid #ccc;
     padding: 15px;
     background-color: #bed;
-    color: #242463;
     margin-bottom: 1rem;
 }
 
+h1, h2 {
+    color: #4c4cbd;
+    font-family: 'Arvo', serif;
+}
+
 h2 {
-    padding: .25rem;
-    color: #242463;
+    padding: .5rem;
 }
 
 footer {
+    margin-top: 1rem;
     border-top: 1px solid #777;
 }
 
 p {
     font-size: .75rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    padding: .25rem;
 }
 
 
@@ -41,25 +46,28 @@ p {
 
 .cards section {
     background-color: #bbb;
-    border: 1px solid black;
+    border: 1px solid #555585;
     padding: .5rem;
 }
 
-.highlight {
-    color: navy;
-}
-
 section img {
-    width: 200px;
+    width: 175px;
     height: auto;
+    box-shadow: 1px 1px 4px 1px #34403A;
 }
 
 @media (max-width: 29.3rem) {
-	.list section img {
+	.cards {
 		display: block;
 	}
+    
+    .cards section {
+        width: 85%;
+        margin: .5rem;
+    }
 
     section img {
-        display: none;
+        width: 100px;
+        height: auto;
     }
 }
