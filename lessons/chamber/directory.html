@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Joing the Chamber Form">
+        <meta name="description" content="Chillicothe Mound Chamber of Commerce">
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="css/base.css"/>
         <link rel="stylesheet" href="css/medium.css"/>
         <link rel="stylesheet" href="css/large.css"/>
-        <title>Join The Chamber Form</title>
+        <title>Chillicothe Mound Chamber of Commerce</title>
     </head>
     <body>
         <header>
@@ -42,29 +42,12 @@
                 <a href="http://www.linkedin.com"><img src="images/linkedin-logo.webp" alt="linkedin logo"></a>
             </div>
         </header>
+        <div class="date">
+            <span id="currentDate"></span>
+            <p id="message"></p>
+        </div>
         <main>
-            <form method="get" action="thankyou.html">
-                <fieldset>
-                    <legend>Applicant Information </legend>
-                        <label class="top">First Name* <input type="text" name="fname" required></label>
-                        <label class="top">Last Name* <input type="text" name="lname" required></label>
-                        <label class="top">Business Title* <input type="text" name="text" pattern="[A-Za-z_-]{7}" required></label>
-                        <label class="top">Email* <input type="email" name="email" placeholder="myemail@gmail.com" required></label>
-                        <label class="top">Cell Phone* <input type="tel" name="phone" required></label>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Business Information </legend>
-                        <label class="bi">Business Name* <input type="text" name="text" required></label>
-                        <legend>Membership Type: </legend>
-                            <label class="bi"><input type="radio" name="audience" value="nonProfit"> Non-Profit</label>  
-                            <label class="sbs"><input type="radio" name="audience" value="gold"> Gold</label>
-                            <label class="sbs"><input type="radio" name="audience" value="silver"> Silver</label>
-                            <label class="sbs"><input type="radio" name="audience" value="bronze"> Bronze</label>
-                        <label class="bi">Business Description* <input type="textarea" name="textarea" required></label>
-                </fieldset>
-
-                <input type="submit" value="Join Now" class="submitBtn">
+            <div class="cards"></div>
         </main>
         <footer>
             <img src="images/chill-mound-icon.webp" alt="Chillicothe Mound Chamber of Commerce Icon">
