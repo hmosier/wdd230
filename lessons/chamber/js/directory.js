@@ -1,11 +1,11 @@
-const source = "../json/data.json"
+const source = "https://hmosier.github.io/wdd230/lessons/chamber/json/data.json"
 const cards = document.querySelector('.cards');
 
 async function getBusinesses() {
     let response = await fetch(source);
     if (response.ok) {
         let data = await response.json();
-        console.log(data);
+        output(data);
     } else {
         throw Error(response.statusText);
     }
@@ -25,7 +25,7 @@ function output (data) {
             let imgSource = `../images/${business.imageName}`
 
             img.setAttribute('src', `${imgSource}`);
-            img.setAttribute('alt', `${name} logo`);
+            img.setAttribute('alt', `${business.name} logo`);
             img.setAttribute('loading', 'lazy');
             name.textContent = business.name;
             phone.textContent = business.phone;
