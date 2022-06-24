@@ -22,9 +22,9 @@ function output (data) {
             let address = document.createElement("p");
             let lvl = document.createElement("p");
             let url = document.createElement("p");
-            let imgSource = `../images/${business.imageName}`
+            let imgSource = business.imageName;
 
-            img.setAttribute('src', `${imgSource}`);
+            img.setAttribute('src', imgSource);
             img.setAttribute('alt', `${business.name} logo`);
             img.setAttribute('loading', 'lazy');
             name.textContent = business.name;

@@ -5,7 +5,7 @@
             "address": "4439 State Route 159, Chillicothe, OH 45601",
             "phone": "740-779-7500",
             "url": "www.adena.org",
-            "image": "adena.png",
+            "image": "images/adena.png",
             "level": "gold"
         },
         {
@@ -13,7 +13,7 @@
             "address": "2057 North Bridge Street, Chillicothe, OH 45601",
             "phone": "740-779-9448",
             "url": "www.whitscustard.com",
-            "image": "whits.jpg",
+            "image": "images/whits.jpg",
             "level": "bronze"
         },
         {
@@ -21,7 +21,7 @@
             "address": "117 West High Street, Circleville, OH 43113",
             "phone": "740-474-3313",
             "url": "www.whittichscandyshop.com",
-            "image": "whittiches.png",
+            "image": "images/whittiches.png",
             "level": "gold"
         },
         {
@@ -29,7 +29,7 @@
             "address": "67 N Mullberry Street, Chillicothe, OH 45601",
             "phone": "740-851-6103",
             "url": "www.threadsoh.com",
-            "image": "threadsoh.png",
+            "image": "images/threadsoh.png",
             "level": "bronze"
         },
         {
@@ -37,7 +37,7 @@
             "address": "158 E Mound Street, Circleville, OH 43113",
             "phone": "740-474-6238",
             "url": "www.brownmemorialhome.com",
-            "image": "brown-memorial.webp",
+            "image": "images/brown-memorial.webp",
             "level": "silver"
         },
         {
@@ -45,7 +45,7 @@
             "address": "100 Mill Street, Chillicothe, OH 45601",
             "phone": "740-772-4340",
             "url": "www.rosscountyymca.org",
-            "image": "ymca.webp",
+            "image": "images/ymca.webp",
             "level": "non-profit"
         },
         {
@@ -53,7 +53,7 @@
             "address": "3429 Stoney Creek Rd, Chillicothe, OH 45601",
             "phone": "740-663-5384",
             "url": "www.wagonwheelrentals.com",
-            "image": "wagon.png",
+            "image": "images/wagon.png",
             "level": "bronze"
         },
         {
@@ -61,7 +61,7 @@
             "address": "73 W Main St, Chillcothe, OH 45601",
             "phone": "740-779-9900",
             "url": "www.brickhavenspa.com",
-            "image": "brick-haven-spa.webp",
+            "image": "images/brick-haven-spa.webp",
             "level": "silver"
         },
         {
@@ -69,7 +69,7 @@
             "address": "232 E 8th St, Chillicothe, OH 45601",
             "phone": "740-772-3111",
             "url": "www.pixelle.com",
-            "image": "pixelle.svg",
+            "image": "images/pixelle.svg",
             "level": "gold"
         }
     ]
