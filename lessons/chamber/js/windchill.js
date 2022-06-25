@@ -1,9 +1,4 @@
-let temperature = 33
-let windSpeed = 6.9
 
-let windChill = 35.74 + 0.6215 * temperature - 35.75 * windSpeed ** 0.16;
-
-document.querySelector("#windChill").textContent = `Temperature: ${temperature} Wind Speed: ${windSpeed} Wind Chill = ${windChill}`;
 
 // const baseURL = "https://api.openweathermap.org/data/2.5/weather?lat=39.3318&lon=-82.9817&appid=2c5b9238c69ab8caead4ac1eaebe1cb0&units=imperial"
 
@@ -33,7 +28,7 @@ document.querySelector("#windChill").textContent = `Temperature: ${temperature} 
     
 //         article.appendChild(windChill).textContent = `Wind Chill = ${windChill}`;
 //     } else {
-//         article.appendChild(windChill).textContent = `No Wind Chill`
+//         article.appendChild(windChill).textContent = `N/A`
 //     };
 
 //     article.appendChild(temperature);
