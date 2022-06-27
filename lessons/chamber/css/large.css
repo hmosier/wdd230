@@ -56,10 +56,5 @@
     .join {
         grid-area: 3/1/4/2;
     }
-
-    #action-call {
-        bottom: 50px;
-        left: 50px;
-    }
     
 }

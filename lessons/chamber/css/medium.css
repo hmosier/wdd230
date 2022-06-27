@@ -37,12 +37,6 @@
         margin-top: 1rem;
     }
 
-    #action-call {
-        left: 30px;
-        bottom: 40px;
-    }
-
-
     div.discover_grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(325px, 350px));
