@@ -1,7 +1,7 @@
 body {
     background-color: #258238;
     font-family: 'Quicksand', sans-serif;
-    color: #34403A;
+    color: #F3FFC6;
     margin: auto;
     align-content: center;
     padding: .5rem;
@@ -210,8 +210,22 @@ main div {
     grid-row: 5/6;
 }
 
+main div.discover_grid {
+    background-color: #258238;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    border: none;
+}
+
 img.discover {
     width: 90%;
+    border-radius: 10px;
+    margin-top: .5rem;
+}
+
+.outline {
+    border: 1px solid #f3be38;
 }
 
 /* footer styling */
