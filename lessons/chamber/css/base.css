@@ -20,6 +20,7 @@ header, footer {
     border-radius: 10px;
 }
 
+/* -----------------------HEADER---------------------------- */
 header {
     flex-flow: row wrap;
     color: #F3FFC6;
@@ -128,7 +129,7 @@ nav ul.open {
     color:#34403A;
 }
 
-/* main styling */
+/* -------------------------MAIN-------------------------- */
 /* h1 {
     position: absolute;
     margin: 1rem;
@@ -194,7 +195,6 @@ button {
 button:hover {
     background-color: #285238;
     box-shadow: 1px 1px 4px 1px #34403A;
-    font-size: 1rem;
 }
 
 #action-call {
@@ -230,6 +230,8 @@ button:hover {
     grid-row: 5/6;
 }
 
+
+/* ---------------------DISCOVER----------------------- */
 main div.discover_grid {
     background-color: #258238;
     text-align: center;
@@ -248,7 +250,98 @@ img.discover {
     border: 1px solid #f3be38;
 }
 
-/* footer styling */
+/* ---------------------JOIN----------------------- */
+* { -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+/*----------- FORM --------------*/
+.join {
+    justify-content: center;
+    border: none;
+    background-color: #258238;
+}
+
+form {
+    display: block;
+}
+
+form fieldset, div.fieldset {
+    margin: 2rem 0;
+    border: 1px solid #f3be38;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    text-align: left;
+    background-color: rgba(243, 255, 198, 0.9);
+    max-width: 500px;
+    color: #34403A;
+}
+form legend {
+    color: #34403A;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    background-color: #F3FFC6;
+    border: 1px 1px solid #f3be38;
+}
+
+form label.top, form label.bi, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #34403A;
+}
+
+form label.top input, form label.top select, form label.bi input {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1 px rgba(255, 255, 255, 0.339);
+    border-radius: 4px;
+    padding: .75rem;
+    color: black;
+    max-width: 20rem;
+    background-color: rgba(91, 91, 91, 0.1);
+}
+
+form label.sbs, .bi {
+    display: block;
+    padding: .75rem 0;
+    color: #34403A;
+}
+form input.submitBtn {
+    background-color: #F3FFC6;
+    color: #34403A;
+    border: none;
+    text-align: center;
+    width: 15rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    box-shadow: 1px 1px 4px 1px #34403A;
+}
+
+form input.submitBtn:hover {
+    background-color: rgb(243, 190, 56, .75);
+    box-shadow: 1px 1px 4px 1px #34403A;
+    font-size: 1rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+/* ----------------FOOTER---------------- */
 footer {
     flex-direction: column;
     align-items: center;

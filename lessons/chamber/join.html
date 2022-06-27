@@ -43,28 +43,50 @@
             </div>
         </header>
         <main>
+            <div class="join">
             <form method="get" action="thankyou.html">
                 <fieldset>
-                    <legend>Applicant Information </legend>
-                        <label class="top">First Name* <input type="text" name="fname" required></label>
-                        <label class="top">Last Name* <input type="text" name="lname" required></label>
-                        <label class="top">Business Title* <input type="text" name="text" pattern="[A-Za-z_-]{7}" required></label>
+                    <legend>Applicant Information: </legend>
+                        <label class="top">First Name* <input type="text" name="fname" placeholder="Jane" required></label>
+                        <label class="top">Last Name* <input type="text" name="lname" placeholder="Doe" required></label>
+                        <label class="top">Business Title* <input type="text" name="text" pattern="[A-Za-z_-]{7}" placeholder="CEO" required></label>
                         <label class="top">Email* <input type="email" name="email" placeholder="myemail@gmail.com" required></label>
-                        <label class="top">Cell Phone* <input type="tel" name="phone" required></label>
+                        <label class="top">Cell Phone* <input type="tel" name="phone" placeholder="555-555-1234" required></label>
+                </fieldset>
+
+                <fieldset class="price">
+                    <legend>Membership Pricing and Information: </legend>
+                    <h2>Gold</h2>
+                    <p>Price: $500</p>
+                    <p>For the Gold Membership, we will give you access to all of our resources to help you build and promote your business. You will have access to our newsletter, be featured on our homepage once a month and be able to post job openings on our website</p>
+
+                    <h2>Silver</h2>
+                    <p>Price: $250</p>
+                    <p>For the Silver Membership, you will have access to our newsletter, be featured on our homepage once every-other month, be able to post job openings on our website and have access to some of our resources to help you build your business. </p>
+
+                    <h2>Bronze</h2>
+                    <p>Price: $100</p>
+                    <p>For the Non-Profit Membership, we will give you access to our newsletter and be able to post job openings on our website. Some free workshops are included in this membership.</p>
+
+                    <h2>Non-Profit</h2>
+                    <p>Price: Free</p>
+                    <p>For the Non-Profit Membership, we will give you access to all of our resources and give you a spotlight on the homepage once a year. You will have access to our newsletter and we will give you resources to promote service projects.</p>
                 </fieldset>
 
                 <fieldset>
-                    <legend>Business Information </legend>
-                        <label class="bi">Business Name* <input type="text" name="text" required></label>
+                    <legend>Business Information: </legend>
+                        <label class="bi">Business Name* <input type="text" name="text" placeholder="Johnny's Apples" required></label>
+                        <p></p>
                         <legend>Membership Type: </legend>
-                            <label class="bi"><input type="radio" name="audience" value="nonProfit"> Non-Profit</label>  
+                            <label class="sbs"><input type="radio" name="audience" value="nonProfit"> Non-Profit</label>  
                             <label class="sbs"><input type="radio" name="audience" value="gold"> Gold</label>
                             <label class="sbs"><input type="radio" name="audience" value="silver"> Silver</label>
                             <label class="sbs"><input type="radio" name="audience" value="bronze"> Bronze</label>
-                        <label class="bi">Business Description* <input type="textarea" name="textarea" required></label>
+                        <label class="bi">Business Description* <input type="textarea" name="textarea" placeholder="We sell orchard-fresh apples and apple products" size="500" required></label>
                 </fieldset>
+            </div>
 
-                <input type="submit" value="Join Now" class="submitBtn">
+            <input type="submit" value="Join The Chamber Now" class="submitBtn">
         </main>
         <footer>
             <img src="images/chill-mound-icon.webp" alt="Chillicothe Mound Chamber of Commerce Icon">
