@@ -210,6 +210,9 @@ main div {
     grid-row: 5/6;
 }
 
+img.discover {
+    width: 90%;
+}
 
 /* footer styling */
 footer {
