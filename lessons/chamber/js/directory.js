@@ -22,9 +22,9 @@ function output (data) {
             let address = document.createElement("p");
             let lvl = document.createElement("p");
             let url = document.createElement("p");
-            let imgSource = business.imageName;
+            let imgSource = `images/${business.image}`
 
-            img.setAttribute('src', imgSource);
+            img.setAttribute('src', `${imgSource}`);
             img.setAttribute('alt', `${business.name} logo`);
             img.setAttribute('loading', 'lazy');
             name.textContent = business.name;
@@ -33,7 +33,7 @@ function output (data) {
             address.setAttribute = business.address;
             lvl.setAttribute = `Membership Level: ${business.level}`;
 
-            card.append(img);
+            card.appendChild(img);
             card.append(name);
             card.appendChild(phone);
             card.appendChild(url);
