@@ -246,16 +246,13 @@ img.discover {
     border: 1px solid #f3be38;
 }
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
 .list section img.cards {
     display: none;
 }
 
+figcaption {
+    display: none;
+}
 
 /* ---------------------JOIN----------------------- */
 
@@ -326,13 +323,22 @@ form input.submitBtn:hover {
     font-size: 1rem;
 }
 form label.top input:required, form label.bi input:required {
-    border-left: red solid 6px;
+    border-left: rgb(115, 20, 20) solid 6px;
 }
 form label.top input:required:valid, form label.bi input:required:valid {
-    border-left: green solid 6px;
+    border-left: rgb(37, 89, 37) solid 6px;
 }
 
-/* ---------------CONTACT--------------- */
+/* ---------------DIRECTORY--------------- */
+.menu {
+    text-align: center;
+}
+
+/* #grid, #list {
+
+} */
+
+
 
 /* ----------------FOOTER---------------- */
 footer {

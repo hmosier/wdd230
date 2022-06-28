@@ -48,6 +48,17 @@
         justify-content: center;
     }
 
+    /* figcaption {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        background: rgb(37, 130, 56, .5);
+        width: 100%;
+        transition: .5s ease;
+        color: white;
+        padding: .25rem;
+        text-align: center;
+    } */
 
 
     /* main {
