@@ -265,8 +265,10 @@ main {
     padding: 0 2%;
     min-height: 20rem;
 }
-.join {
+.join, .contact {
+    display: block;
     justify-content: center;
+    align-items: center;
     border: none;
     background-color: #258238;
 }
@@ -280,7 +282,7 @@ form fieldset, div.fieldset {
     padding: .5rem 2%;
     text-align: left;
     background-color: rgba(243, 255, 198, 0.9);
-    max-width: 500px;
+    max-width: 25rem;
     color: #34403A;
 }
 form legend {
@@ -290,7 +292,7 @@ form legend {
     background-color: #F3FFC6;
     border: 1px 1px solid #f3be38;
 }
-form label.top, form label.bi, form div {
+form label.top, form label.bi {
     display: block;
     padding-top: 1rem;
     color: #34403A;
@@ -328,11 +330,16 @@ form input.submitBtn:hover {
     box-shadow: 1px 1px 4px 1px #34403A;
     font-size: 1rem;
 }
-form label.top input:required {
+form label.top input:required, form label.bi input:required {
     border-left: red solid 6px;
 }
-form label.top input:required:valid {
+form label.top input:required:valid, form label.bi input:required:valid {
     border-left: green solid 6px;
+}
+
+/* ---------------CONTACT--------------- */
+#contact-main {
+    text-align: left;
 }
 
 /* ----------------FOOTER---------------- */

@@ -28,9 +28,10 @@
         grid-template-columns: 1fr 1fr;
     }
         
-    .join {
-        display: block;
-        grid-area: 4/1/5/3;
+    div.join {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(40rem, 45rem));
+        grid-gap: 1rem;
     }
 
     .join button {
