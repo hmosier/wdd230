@@ -10,6 +10,7 @@ body {
 
 main, header, footer {
     border: 1px solid #f3be38;
+    padding: 0 2%;
 }
 
 header, footer {
@@ -257,10 +258,7 @@ img.discover {
 
 
 /* ---------------------JOIN----------------------- */
-/* main {
-    padding: 0 2%;
-    min-height: 20rem;
-} */
+
 .join, .contact {
     display: block;
     justify-content: center;
@@ -319,6 +317,7 @@ form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+    max-height: 2.5rem;
     box-shadow: 1px 1px 4px 1px #34403A;
 }
 form input.submitBtn:hover {
