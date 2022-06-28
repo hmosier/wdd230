@@ -130,12 +130,6 @@ nav ul.open {
 }
 
 /* -------------------------MAIN-------------------------- */
-/* h1 {
-    position: absolute;
-    margin: 1rem;
-    color: #F3FFC6;
-} */
-
 main.index {
     display: grid;
     grid-gap: .5rem;
@@ -251,30 +245,34 @@ img.discover {
     border: 1px solid #f3be38;
 }
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.list section img.cards {
+    display: none;
+}
+
+
 /* ---------------------JOIN----------------------- */
 * { -moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
     box-sizing: border-box;
 }
-
-
-/*----------- MAIN --------------*/
 main {
     padding: 0 2%;
     min-height: 20rem;
 }
-
-/*----------- FORM --------------*/
 .join {
     justify-content: center;
     border: none;
     background-color: #258238;
 }
-
 form {
     display: block;
 }
-
 form fieldset, div.fieldset {
     margin: 2rem 0;
     border: 1px solid #f3be38;
@@ -292,13 +290,11 @@ form legend {
     background-color: #F3FFC6;
     border: 1px 1px solid #f3be38;
 }
-
 form label.top, form label.bi, form div {
     display: block;
     padding-top: 1rem;
     color: #34403A;
 }
-
 form label.top input, form label.top select, form label.bi input {
     -webkit-appearance: none;
     display: block;
@@ -310,7 +306,6 @@ form label.top input, form label.top select, form label.bi input {
     max-width: 20rem;
     background-color: rgba(91, 91, 91, 0.1);
 }
-
 form label.sbs, .bi {
     display: block;
     padding: .75rem 0;
@@ -328,13 +323,11 @@ form input.submitBtn {
     max-width: 20rem;
     box-shadow: 1px 1px 4px 1px #34403A;
 }
-
 form input.submitBtn:hover {
     background-color: rgb(243, 190, 56, .75);
     box-shadow: 1px 1px 4px 1px #34403A;
     font-size: 1rem;
 }
-
 form label.top input:required {
     border-left: red solid 6px;
 }

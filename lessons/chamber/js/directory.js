@@ -1,6 +1,20 @@
 const source = "https://hmosier.github.io/wdd230/lessons/chamber/json/data.json"
 const cards = document.querySelector('.cards');
 
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+
+gridbutton.addEventListener("click", () => {
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+// listbutton.addEventListener("click", () => {
+// 	display.classList.add("list");
+// 	display.classList.remove("grid");
+// });
+
 async function getBusinesses() {
     let response = await fetch(source);
     if (response.ok) {
@@ -13,6 +27,7 @@ async function getBusinesses() {
 
 getBusinesses();
 
+
 function output (data) {
     data.business.forEach(business => {
             let card = document.createElement("section");
@@ -22,10 +37,10 @@ function output (data) {
             let address = document.createElement("p");
             let lvl = document.createElement("p");
             let url = document.createElement("p");
-            // let imgSource = `images/${business.image}`
 
             img.setAttribute('src', business.image);
             img.setAttribute('alt', `${business.name} logo`);
+            img.setAttribute('class', 'cards');
             img.setAttribute('loading', 'lazy');
             name.textContent = business.name;
             phone.textContent = business.phone;
@@ -44,12 +59,3 @@ function output (data) {
         }
     );
 }
-
-// const gridbutton = document.querySelector("#grid");
-// const listbutton = document.querySelector("#list");
-// const display = document.querySelector("article");
-
-// gridbutton.addEventListener("click", () => {
-// 	display.classList.add("grid");
-// 	display.classList.remove("list");
-// });
