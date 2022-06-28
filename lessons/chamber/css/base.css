@@ -257,14 +257,10 @@ img.discover {
 
 
 /* ---------------------JOIN----------------------- */
-* { -moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
-    box-sizing: border-box;
-}
-main {
+/* main {
     padding: 0 2%;
     min-height: 20rem;
-}
+} */
 .join, .contact {
     display: block;
     justify-content: center;
@@ -338,9 +334,6 @@ form label.top input:required:valid, form label.bi input:required:valid {
 }
 
 /* ---------------CONTACT--------------- */
-#contact-main {
-    text-align: left;
-}
 
 /* ----------------FOOTER---------------- */
 footer {
