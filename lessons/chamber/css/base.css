@@ -181,6 +181,7 @@ main div {
 }
 
 button {
+    margin: .5rem;
     padding: .5rem;
     background-color: #258238;
     color: #F3FFC6;
