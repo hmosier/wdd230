@@ -95,6 +95,7 @@ nav ul li a:hover {
 nav ul.open {
     display: block;
     position: absolute;
+    width: 15rem;
 }
 
 #hamburger span:nth-child(1) {
@@ -148,6 +149,11 @@ main div {
     border: 1px solid #f3be38;
 }
 
+h1 span {
+    display: block;
+    font-size: 1.25rem;
+}
+
 .spotlight {
     display: grid;
 }
@@ -186,6 +192,7 @@ main div {
     border-bottom: none;
     text-align: center;
     width: 15rem;
+    text-decoration: none;
 }
 
 .button:hover {
@@ -259,6 +266,7 @@ img.discover {
     align-items: center;
     border: none;
     background-color: #258238;
+    margin: auto;
 }
 form {
     display: block;
@@ -268,7 +276,7 @@ form fieldset, div.fieldset {
     border: 1px solid #f3be38;
     border-radius: 10px;
     padding: .5rem 2%;
-    text-align: left;
+    /* text-align: left; */
     background-color: rgba(243, 255, 198, 0.9);
     max-width: 25rem;
     color: #34403A;

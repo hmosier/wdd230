@@ -27,16 +27,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-        
-    div.join {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(40rem, 45rem));
-        grid-gap: 1rem;
-    }
-
-    .join button {
-        margin-top: 1rem;
-    }
 
     div.discover_grid {
         display: grid;
