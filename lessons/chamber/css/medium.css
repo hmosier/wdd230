@@ -22,7 +22,7 @@
         grid-area: 5/2/6/3;
     }
 
-    .spotlight {
+    #spotlight {
         grid-area:3/1/4/3;
         display: grid;
         grid-template-columns: 1fr 1fr;
