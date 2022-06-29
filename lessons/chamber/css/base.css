@@ -250,9 +250,6 @@ img.discover {
     display: none;
 }
 
-figcaption {
-    display: none;
-}
 
 /* ---------------------JOIN----------------------- */
 
@@ -281,7 +278,7 @@ form legend {
     margin: 0 1rem;
     padding: 0 .5rem;
     background-color: #F3FFC6;
-    border: 1px 1px solid #f3be38;
+    border: 1px solid #f3be38;
 }
 form label.top, form label.bi {
     display: block;
