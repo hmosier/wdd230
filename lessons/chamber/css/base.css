@@ -148,11 +148,11 @@ main div {
     border: 1px solid #f3be38;
 }
 
-#spotlight {
+.spotlight {
     display: grid;
 }
 
-#spot1, #spot2 {
+.spot1 {
     background-color: #258238;
     border-radius: 10px;
     box-shadow: 1px 1px 4px 1px #f3be38;
