@@ -14,10 +14,7 @@ async function apiFetch() {
     } else {
         throw Error(await response.text());
     }
-
-  }
-
-  apiFetch();
+}
 
 
 function  displayResults(weatherData) {
@@ -32,9 +29,11 @@ function  displayResults(weatherData) {
 
     windspeed.textContent = `Wind Speed: ${weatherData.wind.speed}`;
     
-    if (currentTemp <= 50 && windspeed > 3.0) {
-        windchill.textContent = `Windchill: ${35.74 + 0.6215 * currentTemp - 35.75 * windspeed ** 0.16}`;
+    if (weatherData.main.temp <= 50 && weatherData.wind.speed > 3.0) {
+        windchill.textContent = `Windchill: ${35.74 + 0.6215 * weatherData.main.temp - 35.75 * weatherData.wind.speed ** 0.16}`;
     } else {
         windchill.textContent = `Windchill: N/A`
     };
 };
+
+apiFetch();

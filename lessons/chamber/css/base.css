@@ -175,7 +175,7 @@ main div {
     max-width: 650px;
 }
 
-button {
+.button {
     margin: .5rem;
     padding: .5rem;
     background-color: #258238;
@@ -188,7 +188,7 @@ button {
     width: 15rem;
 }
 
-button:hover {
+.button:hover {
     background-color: #285238;
     box-shadow: 1px 1px 4px 1px #34403A;
 }

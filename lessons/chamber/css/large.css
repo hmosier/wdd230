@@ -67,4 +67,7 @@
         grid-area: 1/2/3/3;
     }
 
+    .discover:hover {
+        box-shadow: 0 0 30px #333;
+    }
 }
