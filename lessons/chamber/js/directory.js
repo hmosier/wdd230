@@ -15,32 +15,32 @@ getBusinesses();
 
 function output (data) {
     data.business.forEach(business => {
-            let card = document.createElement("section");
-            let name = document.createElement("h2");
-            let phone = document.createElement("p");
-            let img = document.createElement("img");
-            let address = document.createElement("p");
-            let lvl = document.createElement("p");
-            let url = document.createElement("p");
+        let card = document.createElement("section");
+        let name = document.createElement("h2");
+        let phone = document.createElement("p");
+        let img = document.createElement("img");
+        let address = document.createElement("p");
+        let lvl = document.createElement("p");
+        let url = document.createElement("p");
 
-            img.setAttribute('src', business.image);
-            img.setAttribute('alt', `${business.name} logo`);
-            img.setAttribute('loading', 'lazy');
-            img.setAttribute('class', 'cards');
-            name.textContent = business.name;
-            phone.textContent = business.phone;
-            url.textContent = business.url;
-            address.setAttribute = business.address;
-            lvl.setAttribute = `Membership Level: ${business.level}`;
+        img.setAttribute('src', business.image);
+        img.setAttribute('alt', `${business.name} logo`);
+        img.setAttribute('loading', 'lazy');
+        img.setAttribute('class', 'cards');
+        name.textContent = business.name;
+        phone.textContent = business.phone;
+        url.textContent = business.url;
+        address.setAttribute = business.address;
+        lvl.setAttribute = `Membership Level: ${business.level}`;
 
-            card.appendChild(img);
-            card.append(name);
-            card.appendChild(phone);
-            card.appendChild(url);
-            card.appendChild(address);
-            card.appendChild(lvl);
+        card.appendChild(img);
+        card.append(name);
+        card.appendChild(phone);
+        card.appendChild(url);
+        card.appendChild(address);
+        card.appendChild(lvl);
 
-            cards.append(card);
+        cards.append(card);
         }
     );
 }

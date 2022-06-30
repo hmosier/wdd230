@@ -38,24 +38,28 @@
         justify-content: center;
     }
 
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+        grid-gap: 1rem;
+    }
+    
+    section img {
+        width: 200px;
+        height: auto;
+        box-shadow: 1px 1px 4px 1px #34403A;
+        margin: 2.5rem;
+    }
 
-    /* main {
-        margin: 0 auto;
-        border: 1px solid #bbb;
-        padding: 0.5rem;
+    main.directory {
         max-width: 700px;
-        background-color: #eee;
-        font-family: "Caveat", cursive;
     }
     
     .menu {
         margin: 1rem auto;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        padding: 0.5rem;
-        background-color: #bbb;
         text-align: center;
     }
-     */
+    
     .menu button {
         padding: 1rem;
     }
@@ -72,7 +76,7 @@
         align-items: center;
         grid-gap: 1rem;
     }
-/*     
+    
     .list {
         display: flex;
         flex-direction: column;
@@ -81,22 +85,21 @@
     .list section {
         display: flex;
         align-items: center;
-    } */
+    }
     
-    /* .grid section {
+    .grid section {
         flex-direction: column;
         text-align: center;
     }
-/*      */
-    /* .list section {
+    .list section {
         flex-direction: row;
         justify-content: left;
-    } */ 
-/*     
+    } 
+     
     .list section > * {
         margin: 0 1rem;
         text-align: left;
-    } */
+    }
     
     section h2 {
         font-size: 1rem;

@@ -186,10 +186,7 @@ h1 span {
     padding: .5rem;
     background-color: #258238;
     color: #F3FFC6;
-    border-left: .5px solid black;
-    border-right: .5px solid black;
-    border-top: none;
-    border-bottom: none;
+    border: .5px solid #f3be38;
     text-align: center;
     width: 15rem;
     text-decoration: none;
@@ -276,7 +273,6 @@ form fieldset, div.fieldset {
     border: 1px solid #f3be38;
     border-radius: 10px;
     padding: .5rem 2%;
-    /* text-align: left; */
     background-color: rgba(243, 255, 198, 0.9);
     max-width: 25rem;
     color: #34403A;
@@ -333,17 +329,27 @@ form label.top input:required, form label.bi input:required {
 form label.top input:required:valid, form label.bi input:required:valid {
     border-left: rgb(37, 89, 37) solid 6px;
 }
+form label {
+    text-align: left;
+}
 
 /* ---------------DIRECTORY--------------- */
 .menu {
     text-align: center;
 }
 
-/* #grid, #list {
-
-} */
 
 
+.cards section {
+    background-color: rgba(37, 130, 56, 0.2);
+    border: 1px solid #f3be38;
+    padding: .2rem;
+    border-radius: 10px;
+}
+
+section img {
+    display: none;
+}
 
 /* ----------------FOOTER---------------- */
 footer {
