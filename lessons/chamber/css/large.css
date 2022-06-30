@@ -48,9 +48,15 @@
         grid-area: 2/1/3/2;
     }
 
+    .spot {
+        margin: .25rem;
+        max-width: 95%;
+    }
+
     .spotlight {
         grid-area: 1/4/4/5;
         grid-template-columns: 1fr;
+        margin: .25rem;
     }
         
     #join {
@@ -64,14 +70,14 @@
     }
 
     #action-call {
-        left: 0rem;
+        left: 7rem;
     }
 
     .price {
         grid-area: 1/2/3/3;
     }
 
-    .discover:hover {
+    .discover:hover, .placeholder-box:hover {
         box-shadow: 0 0 10px #34403A;
     }
     

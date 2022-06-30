@@ -19,7 +19,10 @@
     }
     
     #action-call {
-        left: -12rem;
+        display: block;
+        position: relative;
+        left: 10rem;
+        bottom: 4rem;
     }
     .weather {
         grid-area: 5/2/6/3;
@@ -47,6 +50,10 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 260px));
         grid-gap: .25rem;
+    }
+    
+    #event {
+        max-width: 100px;
     }
     
     section img {

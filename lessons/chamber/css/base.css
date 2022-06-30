@@ -116,7 +116,7 @@ nav ul.open {
 }
 
 .social img {
-    width: 30px;
+    width: 25px;
     border-radius: 75px;
 }
 
@@ -207,9 +207,7 @@ div.weather h3 {
 }
 
 #action-call {
-    position: relative;
-    bottom: 4rem;
-    left: 5rem;
+    display: none;
 }
 
 .news {
@@ -220,7 +218,7 @@ div.weather h3 {
     grid-row: 2/3;
 }
 
-.placeholder-box img{
+.placeholder-box picture{
     max-width: 100px;
 }
 
@@ -233,7 +231,7 @@ div.weather h3 {
 #weather-icon {
     padding: 0;
     margin: 0;
-    max-width: 50px;
+    max-width: 75px;
 }
 
 .join {
@@ -242,6 +240,10 @@ div.weather h3 {
 
 .spotlight {
     grid-row: 5/6;
+}
+
+.spot-img {
+    max-width: 150px;
 }
 
 
