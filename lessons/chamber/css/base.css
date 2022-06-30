@@ -290,7 +290,7 @@ div.menu button {
 form {
     display: block;
 }
-form fieldset, div.fieldset {
+form fieldset, div.fieldset, form fieldset.contact {
     margin: 2rem 0;
     border: 1px solid #f3be38;
     border-radius: 10px;
@@ -375,7 +375,7 @@ section img {
     margin: auto;
     text-align: left;
     min-width: 20rem;
-    max-width: 50rem;
+    max-width: 40rem;
     padding: .5rem;
 }
 
@@ -385,6 +385,11 @@ section img {
 
 div.contact {
     margin: auto;
+}
+
+form fieldset.contact {
+    max-width: 40rem;
+    min-width: 20rem;
 }
 
 /* ----------------FOOTER---------------- */
