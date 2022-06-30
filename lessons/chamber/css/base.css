@@ -218,6 +218,10 @@ div.weather h3 {
     grid-row: 2/3;
 }
 
+#event {
+    max-width: 100px;
+}
+
 .placeholder-box picture{
     max-width: 100px;
 }
@@ -293,7 +297,6 @@ form {
     display: block;
 }
 form fieldset, div.fieldset, form fieldset.contact {
-    margin: 2rem 0;
     border: 1px solid #f3be38;
     border-radius: 10px;
     padding: .5rem 2%;
@@ -376,9 +379,7 @@ section img {
 .contact-main {
     margin: auto;
     text-align: left;
-    min-width: 20rem;
     max-width: 40rem;
-    padding: .5rem;
 }
 
 #contact-head {
@@ -391,7 +392,6 @@ div.contact {
 
 form fieldset.contact {
     max-width: 40rem;
-    min-width: 20rem;
 }
 
 /* ----------------FOOTER---------------- */

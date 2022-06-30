@@ -52,10 +52,6 @@
         grid-gap: .25rem;
     }
     
-    #event {
-        max-width: 100px;
-    }
-    
     section img {
         width: 200px;
         height: auto;
