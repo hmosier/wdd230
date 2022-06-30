@@ -75,13 +75,13 @@
         box-shadow: 0 0 10px #34403A;
     }
     
-    div.join {
+    div.join-form {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(40rem, 45rem));
         grid-gap: 1rem;
     }
 
-    .join button {
+    .join-form button {
         margin-top: 1rem;
     }
 }
