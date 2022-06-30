@@ -24,7 +24,9 @@
     .weather {
         grid-area: 5/2/6/3;
     }
-
+    #join {
+        grid-area: 4/1/5/-1;
+    }
     .spotlight {
         grid-area:3/1/4/3;
         display: grid;

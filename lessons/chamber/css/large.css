@@ -53,7 +53,7 @@
         grid-template-columns: 1fr;
     }
         
-    .join {
+    #join {
         grid-area: 3/1/4/2;
     }
     
@@ -61,6 +61,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
+    }
+
+    #action-call {
+        left: 0rem;
     }
 
     .price {
