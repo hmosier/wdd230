@@ -254,6 +254,14 @@ img.discover {
     display: none;
 }
 
+section {
+    margin: .25rem;
+}
+
+div.menu button {
+    display: none;
+}
+
 
 /* ---------------------JOIN----------------------- */
 
@@ -293,7 +301,6 @@ form label.top input, form label.top select, form label.bi input {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
-    border: solid 1 px rgba(255, 255, 255, 0.339);
     border-radius: 4px;
     padding: .75rem;
     color: black;
