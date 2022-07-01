@@ -262,6 +262,7 @@ main div.discover_grid {
 
 img.discover {
     width: 90%;
+    height: auto;
     border-radius: 10px;
     margin-top: .5rem;
 }
@@ -380,6 +381,7 @@ section img {
     margin: auto;
     text-align: left;
     max-width: 40rem;
+    padding: .75rem;
 }
 
 #contact-head {

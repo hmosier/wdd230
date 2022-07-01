@@ -25,7 +25,6 @@ function output (data) {
 
         img.setAttribute('src', business.image);
         img.setAttribute('alt', `${business.name} logo`);
-        img.setAttribute('loading', 'lazy');
         img.setAttribute('class', 'cards');
         name.textContent = business.name;
         phone.textContent = business.phone;
