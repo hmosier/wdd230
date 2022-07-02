@@ -95,7 +95,8 @@ nav ul li a:hover {
 nav ul.open {
     display: block;
     position: absolute;
-    width: 15rem;
+    margin-left: -15rem;
+    width: 20rem;
 }
 
 #hamburger span:nth-child(1) {
@@ -154,21 +155,23 @@ h1 span {
     font-size: 1.25rem;
 }
 
-.spotlight {
+.spotlights {
     display: grid;
 }
 
-.spot1 {
-    background-color: #258238;
+.placeholder-box:hover {
+    box-shadow: 0 0 10px #34403A;
+}
+.spot1, .spot2 {
+    background-color: #F3FFC6;
     border-radius: 10px;
-    box-shadow: 1px 1px 4px 1px #f3be38;
     text-align: center;
-    color: #F3FFC6;
+    color: #34403A;
     margin: .5rem;
     width: 95%;
 }
 
-#spot3 {
+.spot3 {
     display: none;
 }
 

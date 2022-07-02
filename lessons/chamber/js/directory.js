@@ -13,7 +13,7 @@ async function getBusinesses() {
 
 getBusinesses();
 
-function output (data) {
+function output(data) {
     data.business.forEach(business => {
         let card = document.createElement("section");
         let name = document.createElement("h2");
@@ -30,7 +30,7 @@ function output (data) {
         phone.textContent = business.phone;
         url.textContent = business.url;
         address.setAttribute = business.address;
-        lvl.setAttribute = `Membership Level: ${business.level}`;
+        lvl.textContent = `Membership Level: ${business.level}`;
 
         card.appendChild(img);
         card.append(name);

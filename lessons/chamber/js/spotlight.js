@@ -1,7 +1,5 @@
 const source = "https://hmosier.github.io/wdd230/lessons/chamber/json/data.json"
-const spotlights = document.querySelector('#spotlight');
-
-let number = 1;
+const cards = document.querySelector('.spotlight');
 
 async function getBusinesses() {
     let response = await fetch(source);
@@ -12,38 +10,36 @@ async function getBusinesses() {
         throw Error(response.statusText);
     }
 }
+
 getBusinesses();
 
-function output (data) {
-    data.business.forEach(business => {
-        let spotlight = document.createElement("div");
+let number = 1;
+
+function output(data) {
+    const filter = data.business.filter(value => value.level == 'gold' || value.level == 'silver').sort(function(){return 0.3 - Math.random()}).slice(0, 3);
+    filter.forEach(business => {
+        let card = document.createElement("div");
         let name = document.createElement("h3");
         let img = document.createElement("img");
-        let address = document.createElement("p");
-        let url = document.createElement("a");
         let phone = document.createElement("p");
-
-        spotlight.setAttribute("id", `spot${number}`)
+        let url = document.createElement("p");
 
         img.setAttribute('src', business.image);
         img.setAttribute('alt', `${business.name} logo`);
-        img.setAttribute('loading', 'lazy');
+        img.setAttribute('class', 'spot-img')
 
-        div.setAttribute('class', "spotlight")
-
-        url.setAttribute("href", `${business.url}`);
+        card.setAttribute('class', `placeholder-box spot${number}`);
 
         name.textContent = business.name;
         phone.textContent = business.phone;
-        address.textContent = business.address;
+        url.textContent = business.url;
 
-        card.appendChild(name);
         card.appendChild(img);
+        card.append(name);
         card.appendChild(phone);
         card.appendChild(url);
-        card.appendChild(address);
 
-        spotlights.append(spotlight);
-        }
-    );
+        cards.append(card);
+        number += 1;
+    });
 }
