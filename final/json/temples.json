@@ -14,7 +14,6 @@
             "image": "https://assets.ldscdn.org/1d/54/1d544493ab28695b7030205cd94e5cd038b603cf/washington_dc_mormon_temple.jpeg",
             "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
         },
-
         {
             "name": "Columbus, Ohio Temple",
             "street": "3870 Gateway Blvd",
@@ -43,7 +42,6 @@
             "image": "https://assets.ldscdn.org/01/1e/011ee1b266b78445b5ed75b5b761408759690417/ogden_utah_temple.png",
             "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
         },
-
         {
             "name": "Indianapolis, Indiana Temple",
             "street": "11565 Temple Dr",
@@ -58,7 +56,6 @@
             "image": "https://assets.ldscdn.org/63/f2/63f214e9256712720a12352ee0032ddc9fc0fd04/indianapolis_indiana_temple.jpeg",
             "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
         },
-
         {
             "name": "Houston, Texas Temple",
             "street": "15725 Champion Forest Dr",
@@ -73,7 +70,6 @@
             "image": "https://assets.ldscdn.org/7e/b1/7eb124b69bd8464c2b65501a40dfc749b359717d/houston_texas_temple_exterior.jpeg",
             "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
         },
-
         {
             "name": "Louisville, Kentucky Temple",
             "street": "7116 West Hwy 22",
@@ -88,7 +84,6 @@
             "image": "https://assets.ldscdn.org/21/dc/21dcbc4dc53586f7d6e8cc7d08274bcf220a3652/louisville_temple_lds.jpeg",
             "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
         },
-
         {
             "name": "Preston, England Temple",
             "street": "Temple Way, Hartwood Green",
@@ -103,7 +98,6 @@
             "image": "https://assets.ldscdn.org/2f/8d/2f8d9b3f410707410e1dd245f58e377f030b971a/preston_england_temple_lds.jpeg",
             "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
         },
-
         {
             "name": "Logan, Utah Temple",
             "street": "175 N 300 E",
@@ -118,7 +112,6 @@
             "image": "https://assets.ldscdn.org/07/66/0766f32cfa9c69e9c838361d874aeb819983139a/logan_temple_lds.jpeg",
             "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
         },
-
         {
             "name": "Seattle, Washington Temple",
             "street": "2808 148th Ave SE",
@@ -133,7 +126,6 @@
             "image": "https://assets.ldscdn.org/52/ea/52ea9432aba6a7597e53b71a6b4470d60b56f4b1/seattle_washington_temple_exterior.jpeg",
             "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
         },
-
         {
             "name": "Salt Lake Temple",
             "street": "50 W North Temple St",
@@ -145,7 +137,7 @@
             "groundbreaking": "February 14, 1853",
             "dedicated": "April 6, 1893",
             "rededicated": "N/A",
-            "image": "https://assets.ldscdn.org/1d/54/1d544493ab28695b7030205cd94e5cd038b603cf/washington_dc_mormon_temple.jpeg",
+            "image": "https://assets.ldscdn.org/cc/dc/ccdce513b921520a0740a60b5f349759a269eceb142197/salt_lake_temple_lds.jpeg",
             "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
         }
     ]
