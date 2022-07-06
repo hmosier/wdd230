@@ -1,0 +1,152 @@
+{
+    "temples": [
+        {
+            "name": "Washington D.C. Temple",
+            "street": "9900 Stoneybrook Dr",
+            "city": "Kensington MD 20895-3199",
+            "country": "United States",
+            "phone": "N/A",
+            "services": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
+            "announced": "November 15, 1968",
+            "groundbreaking": "December 7, 1968",
+            "dedicated": "November 19, 1974",
+            "rededicated": "August 14, 2022",
+            "image": "https://assets.ldscdn.org/1d/54/1d544493ab28695b7030205cd94e5cd038b603cf/washington_dc_mormon_temple.jpeg",
+            "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
+        },
+
+        {
+            "name": "Columbus, Ohio Temple",
+            "street": "3870 Gateway Blvd",
+            "city": "Columbus OH 43228-9747",
+            "country": "United States",
+            "phone": "N/A",
+            "services": "https://www.churchofjesuschrist.org/temples/details/columbus-ohio-temple?lang=eng",
+            "announced": "April 25, 1998",
+            "groundbreaking": "September 12, 1998",
+            "dedicated": "September 4, 1999",
+            "rededicated": "Under Rennovation",
+            "image": "https://assets.ldscdn.org/e0/d9/e0d960cf8d0725142a4df1a9510c4a8faeb70bf5/temple_exterior_columbus_ohio.jpeg",
+            "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
+        },
+        {
+            "name": "Ogden, Utah Temple",
+            "street": "350 22nd St",
+            "city": "Ogden UT 84401-1487",
+            "country": "United States",
+            "phone": "1-801-621-6880",
+            "services": "https://www.churchofjesuschrist.org/temples/details/ogden-utah-temple?lang=eng",
+            "announced": "August 24, 1967",
+            "groundbreaking": "September 8, 1969",
+            "dedicated": "January 18, 1972",
+            "rededicated": "September 21, 2014",
+            "image": "https://assets.ldscdn.org/01/1e/011ee1b266b78445b5ed75b5b761408759690417/ogden_utah_temple.png",
+            "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
+        },
+
+        {
+            "name": "Indianapolis, Indiana Temple",
+            "street": "11565 Temple Dr",
+            "city": "Carmel IN 46032-8859",
+            "country": "United States",
+            "phone": "1-317-993-3800",
+            "services": "https://www.churchofjesuschrist.org/temples/details/indianapolis-indiana-temple?lang=eng",
+            "announced": "October 2, 2010",
+            "groundbreaking": "September 29, 2012",
+            "dedicated": "August 23, 2015",
+            "rededicated": "N/A",
+            "image": "https://assets.ldscdn.org/63/f2/63f214e9256712720a12352ee0032ddc9fc0fd04/indianapolis_indiana_temple.jpeg",
+            "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
+        },
+
+        {
+            "name": "Houston, Texas Temple",
+            "street": "15725 Champion Forest Dr",
+            "city": "Spring TX 77379-7036",
+            "country": "United States",
+            "phone": "1-281-376-6804",
+            "services": "https://www.churchofjesuschrist.org/temples/details/houston-texas-temple?lang=eng",
+            "announced": "September 30, 1997",
+            "groundbreaking": "June 13, 1998",
+            "dedicated": "August 26, 2000",
+            "rededicated": "April 22, 2018",
+            "image": "https://assets.ldscdn.org/7e/b1/7eb124b69bd8464c2b65501a40dfc749b359717d/houston_texas_temple_exterior.jpeg",
+            "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
+        },
+
+        {
+            "name": "Louisville, Kentucky Temple",
+            "street": "7116 West Hwy 22",
+            "city": "Crestwood KY 40014-9069",
+            "country": "United States",
+            "phone": "1-502-241-4115",
+            "services": "https://www.churchofjesuschrist.org/temples/details/louisville-kentucky-temple?lang=eng",
+            "announced": "March 17, 1999",
+            "groundbreaking": "May 29, 1999",
+            "dedicated": "March 19, 2000",
+            "rededicated": "N/A",
+            "image": "https://assets.ldscdn.org/21/dc/21dcbc4dc53586f7d6e8cc7d08274bcf220a3652/louisville_temple_lds.jpeg",
+            "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
+        },
+
+        {
+            "name": "Preston, England Temple",
+            "street": "Temple Way, Hartwood Green",
+            "city": "Chorley, Lancashire, England PR6 7EQ",
+            "country": "United Kingdom",
+            "phone": "44-1257-226-100",
+            "services": "https://www.churchofjesuschrist.org/temples/details/preston-england-temple?lang=eng",
+            "announced": "October 19, 1992",
+            "groundbreaking": "June 12, 1994",
+            "dedicated": "June 7, 1998",
+            "rededicated": "N/A",
+            "image": "https://assets.ldscdn.org/2f/8d/2f8d9b3f410707410e1dd245f58e377f030b971a/preston_england_temple_lds.jpeg",
+            "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
+        },
+
+        {
+            "name": "Logan, Utah Temple",
+            "street": "175 N 300 E",
+            "city": "Logan UT 84321-4720",
+            "country": "United States",
+            "phone": "1-435-752-3611",
+            "services": "https://www.churchofjesuschrist.org/temples/details/logan-utah-temple?lang=eng",
+            "announced": "October 6, 1876",
+            "groundbreaking": "May 18, 1877",
+            "dedicated": "May 17, 1884",
+            "rededicated": "March 13, 1979",
+            "image": "https://assets.ldscdn.org/07/66/0766f32cfa9c69e9c838361d874aeb819983139a/logan_temple_lds.jpeg",
+            "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
+        },
+
+        {
+            "name": "Seattle, Washington Temple",
+            "street": "2808 148th Ave SE",
+            "city": "Bellevue WA 98007-6453",
+            "country": "United States",
+            "phone": "1-425-643-5144",
+            "services": "https://www.churchofjesuschrist.org/temples/details/seattle-washington-temple?lang=eng",
+            "announced": "November 15, 1975",
+            "groundbreaking": "May 27, 1978",
+            "dedicated": "November 17, 1980",
+            "rededicated": "N/A",
+            "image": "https://assets.ldscdn.org/52/ea/52ea9432aba6a7597e53b71a6b4470d60b56f4b1/seattle_washington_temple_exterior.jpeg",
+            "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
+        },
+
+        {
+            "name": "Salt Lake Temple",
+            "street": "50 W North Temple St",
+            "city": "Salt Lake City UT 84150-9709",
+            "country": "United States",
+            "phone": "N/A",
+            "services": "https://www.churchofjesuschrist.org/temples/details/salt-lake-temple?lang=eng",
+            "announced": "July 28, 1847",
+            "groundbreaking": "February 14, 1853",
+            "dedicated": "April 6, 1893",
+            "rededicated": "N/A",
+            "image": "https://assets.ldscdn.org/1d/54/1d544493ab28695b7030205cd94e5cd038b603cf/washington_dc_mormon_temple.jpeg",
+            "schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
+        }
+    ]
+}
