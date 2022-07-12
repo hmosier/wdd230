@@ -33,31 +33,40 @@
                 <legend>
                     Guest Information
                 </legend>
+                <fieldset>
                     <label>
-                        First Name* <input type="text" name="fname" placeholder="Russell" required>
+                        First Name* 
+                        <input type="text" name="fname" placeholder="Russell" required>
                     </label>
                     <label>
-                        Last Name* <input type="text" name="lname" placeholder="Nelson" required>
+                        Last Name* 
+                        <input type="text" name="lname" placeholder="Nelson" required>
                     </label>
                     <label>
-                        Phone* <input type="tel" name="phone" placeholder="XXX-XXX-XXXX" required>
+                        Phone* 
+                        <input type="tel" name="phone" placeholder="XXX-XXX-XXXX" required>
                     </label>
                     <label>
-                        Email* <input type="email" name="email" placeholder="lovetoseethetemple@gmail.com" required>
+                        Email* 
+                        <input type="email" name="email" placeholder="lovetemples@gmail.com" required>
                     </label>
                     <label>
-                        Address* <input type="text" name="address" placeholder="1234 Temple Way" required>
+                        Address* 
+                        <input type="text" name="address" placeholder="1234 Temple Way" required>
                     </label>
                     <label>
-                        City* <input type="text" name="city" placeholder="Zion" required>
+                        City* 
+                        <input type="text" name="city" placeholder="Zion" required>
                     </label>
                     <label>
-                        Country* <input type="text" name="country" placeholder="United States" required>
+                        Country* 
+                        <input type="text" name="country" placeholder="United States" required>
                     </label>
                     <label for="state">
                         State
                     </label>
                     <select id="state" name="state" required>
+                        <option value="">Select One...</option>
                         <option value="AL">Alabama</option>
                         <option value="AK">Alaska</option>
                         <option value="AZ">Arizona</option>
@@ -111,13 +120,15 @@
                         <option value="WY">Wyoming</option>
                     </select>
                     <label>
-                        Postal Code* <input type="zip code" name="zip" placeholder="01234" required>
+                        Postal Code* 
+                        <input id="zip" type="number" name="number" pattern="[0-9]*" placeholder="01234" required>
                     </label>
 
                     <label for="property">
                         Select Property*
                     </label>
                     <select id="property" name="property" required>
+                        <option value="">Select One...</option>
                         <option value="columbus">Columbus, OH, USA</option>
                         <option value="houston">Spring, TX, USA</option>
                         <option value="indiana">Indianapolis, IN, USA</option>
@@ -131,21 +142,29 @@
                     </select>
 
                     <label>
-                        Arrival
+                        Arrival* 
+                        <input type="date" name="date" required>
                     </label>
                     <label>
-                        Departure
+                        Departure* 
+                        <input type="date" name="date" required>
                     </label>
                     <label>
-                        Adults
+                        Adults* 
+                        <input type="number" name="number" placeholder="0" required>
                     </label>
                     <label>
-                        Teenagers (11-17)
+                        Teenagers (11-17) 
+                        <input type="number" name="number" placeholder="0">
                     </label>
                     <label>
-                        Children (under 11)
+                        Children (under 11) 
+                        <input type="number" name="number" placeholder="0">
                     </label>
+                    <input type="submit" value="Reserve Now" class="submitBtn">
+                </fieldset>
         </form>
+        </div>
         
         <h2>
             Deposit:
