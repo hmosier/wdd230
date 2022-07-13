@@ -13,6 +13,7 @@
     /* color:rgb(57, 92, 107); */
     /* color: #E6E1C5; */
     /* color: rgb(230, 225, 197); */
+    /* color: #9CA3DB */
 
 body {
     background-image: linear-gradient(to top right, #E6E1C5, #9CA3DB);
@@ -46,11 +47,7 @@ img {
 #wire3 {
     width: 75%
 }
-nav, footer {
-    box-shadow: 1px 1px 4px 1px #28112B;
-    background-color: #28112B
-}
-.persona {
+/* .persona {
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-gap: .5rem;
@@ -65,42 +62,69 @@ nav, footer {
 }
 .persona h3, .persona p {
     margin: auto;
-}
-div {
+} */
+/* div {
     border: 1px solid #28112B;
     box-shadow: 1px 1px 4px 1px #28112B;
     margin: 1rem;
-}
-nav a {
-    color: #E6E1C5;
+} */
+header, footer {
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
     line-height: 1.5rem;
-    text-align: center;
-    background-color: #28112B;
+    box-shadow: 1px 1px 4px 1px #28112B;
+}
+nav a, header, footer, #year, .address p, span a, a {
+    color: #E6E1C5;
 }
 nav ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: none;
+    list-style-type: none;
     text-decoration: none;
     list-style: none;
     margin: 0;
-    text-align: center;
     background-color: #28112B;
 }
-nav ul a:link {
+nav ul a:link, span a:link, a:link {
     text-decoration: none;
 }
-nav ul a:hover {
+nav ul a:hover, span a:hover, a:hover {
     background-color: #E6E1C5;
     color: #395c6b;
     text-decoration: none;
 }
-header, footer, #year {
-    background-color: #395c6b;
+nav ul.open {
+    display: block;
+    position: absolute;
+    margin-left: -10rem;
+    width: 24rem;
+}
+button {
+    background-color: #E6E1C5;
+    border: 1px solid #395c6b;
+    color: #28112B
+}
+#hamburger span:nth-child(1) {
+    display: block;
+    color: #28112B;
+    background-color: #E6E1C5;
+}
+#hamburger span:nth-child(2) {
+    display: none;
+}
+#hamburger.open span:nth-child(1) {
+    display: none;
+}
+#hamburger.open span:nth-child(2) {
+    display: block;
+}
+header, footer, #year, .address p {
+    background-color: #28112B;
     margin: 0;
     text-align: center;
-    color: #E6E1C5;
 }
-.colors {
+
+/* .colors {
     text-align: center;
 }
 .colors th {
@@ -121,12 +145,19 @@ header, footer, #year {
 .accent2 {
     background-color: #28112B;
     color: white;
-}
+} */
 
 .social img {
-    width: 5%;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+}
+div .social {
+    border: none;
+    box-shadow: 0;
 }
 
 .logo {
-    width: 15%;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #E6E1C5, #9CA3DB);
 }
