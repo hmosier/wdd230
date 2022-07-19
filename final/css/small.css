@@ -5,7 +5,7 @@
     align-content: center;
     font-family: 'Dosis', sans-serif;
     text-align: center;
-    max-width: 50rem;
+    max-width: 57rem;
 }
     /* color: rgb(40, 17, 43); */
     /* background-color: rgb(156, 163, 219); */
@@ -28,6 +28,7 @@ h1, h2, h3 {
 }
 p {
     background-color: #E6E1C5;
+    line-height: 1rem;
 }
 img {
     width: 75%;
@@ -160,4 +161,84 @@ div .social {
 .logo {
     width: 100%;
     background-image: linear-gradient(to bottom right, #E6E1C5, #9CA3DB);
+}
+
+/* ------------- Temples ----------------- */
+.like, .liked {
+    position: absolute;
+    font-size: 36px;
+    margin-left: -3.5rem;
+    color: palevioletred;
+}
+
+.cards section {
+    background-color: #28112B;
+    border: 1px solid #395c6b;
+    padding: .5rem;
+    margin: .5rem;
+    box-shadow: 1px 1px 4px 1px #395c6b;
+}
+
+/* ----------- Reserve ------------------ */
+form fieldset, div.fieldset, form fieldset.contact {
+    border: 1px solid #28112B;
+    padding: .5rem 2%;
+    background-color: #E6E1C5;
+    max-width: 30rem;
+    color: #28112B;
+}
+
+form legend {
+    color: #E6E1C5;
+    background-color: #395c6b;
+    border: 1px solid #28112B;
+}
+
+form label {
+    display: block;
+    font-size: 1rem;
+    padding: .25rem;
+    color: #28112B;
+    text-align: left;
+}
+
+form input {
+    min-width: 15rem;
+    max-width: 30rem;
+    display: block;
+    text-align: left;
+}
+
+form input.submitBtn {
+    background-color: #28112B;
+    color: #E6E1C5;
+    border: none;
+    font-size: 1.1rem;
+    box-shadow: #28112B;
+    text-align: center;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+
+form input.submitBtn:hover {
+    background-color: #9CA3DB;
+    color: 1px 1px 4px 1px #28112B;
+}
+
+form label input:required {
+    border: rgba(255, 17, 17, 0.5) solid 2px;
+}
+
+form label input:required:valid {
+    border: none;
+}
+
+div.reserve ul li {
+    text-align: left;
+    background-color: #E6E1C5;
+    margin-left: 1rem;
+}
+
+div.header {
+    grid-area: 1/1/2/-1;
 }

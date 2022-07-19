@@ -1,0 +1,23 @@
+@media only screen  and (min-width: 40rem) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 275px));
+        grid-gap: .25rem;
+        margin: 0;
+    }
+    
+    .cards img {
+        min-width: 225px;
+    }
+
+    .like, .liked {
+        margin-top: -4rem;
+        margin-left: 4rem;
+        font-size: 32px;
+    }
+
+    main.reserve {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

@@ -6,4 +6,17 @@
         display: flex;
     }
 
+    form fieldset{
+        max-width: 35rem;
+    }
+    
+    form input {
+        padding: 1rem;
+        min-width: 20rem;
+        max-width: 25rem;
+    }
+
+    label {
+        max-width: fit-content;
+    }
 }

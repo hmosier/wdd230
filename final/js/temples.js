@@ -28,6 +28,8 @@ function output(data) {
         let dedicated = document.createElement("p");
         let rededicated = document.createElement("p");
         let schedule = document.createElement("p");
+        let heart = document.createElement("span");
+        let liked = document.createElement("span");
 
         name.textContent = temple.name;
         street.textContent = `Address: ${temple.street}`;
@@ -39,6 +41,12 @@ function output(data) {
         image.setAttribute('src', temple.image);
         image.setAttribute('alt', temple.name);
         image.setAttribute('class', 'cards');
+        
+        heart.textContent = `♡`;
+        heart.setAttribute('class', 'like');
+
+        liked.textContent = `❤`;
+        liked.setAttribute('class', 'liked');
 
         announced.textContent = `Announced: ${temple.announced}`;
         groundbreaking.textContent = `Groundbreaking: ${temple.groundbreaking}`;
@@ -47,6 +55,8 @@ function output(data) {
         schedule.innerHTML = `<a href=${temple.schedule} target="_blank">Schedule an Appointment</a>`;
 
         card.appendChild(image);
+        card.appendChild(heart);
+        card.appendChild(liked);
         card.append(name);
         card.appendChild(street);
         card.appendChild(city);
