@@ -1,4 +1,4 @@
-@media only screen  and (min-width: 40rem) {
+@media only screen  and (min-width: 45rem) {
     .cards {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 275px));
@@ -20,4 +20,21 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    div.header {
+        grid-area: 1/1/2/-1;
+    }
+    form fieldset{
+        min-width: 20rem;
+        max-width: 30rem;
+    }
+    
+    form input {
+        min-width: 17rem;
+        max-width: 25rem;
+    }
+    main.contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
+

@@ -18,6 +18,7 @@
 body {
     background-image: linear-gradient(to top right, #E6E1C5, #9CA3DB);
 }
+
 h1, h2, h3 {
     font-family: 'B612', sans-serif;
     color: #E6E1C5;
@@ -28,8 +29,11 @@ h1, h2, h3 {
 }
 p {
     background-color: #E6E1C5;
-    line-height: 1rem;
+    line-height: 1.1rem;
+    border-right: 1px solid #28112B;
+    border-left: 1px solid #28112B;
 }
+
 img {
     width: 75%;
 }
@@ -75,7 +79,7 @@ header, footer {
     line-height: 1.5rem;
     box-shadow: 1px 1px 4px 1px #28112B;
 }
-nav a, header, footer, #year, .address p, span a, a {
+nav a, header, footer, #year, .address p, footer span a, footer a {
     color: #E6E1C5;
 }
 nav ul {
@@ -153,7 +157,7 @@ header, footer, #year, .address p {
     margin: 0;
     padding: 0;
 }
-div .social {
+div.social {
     border: none;
     box-shadow: 0;
 }
@@ -207,6 +211,7 @@ form input {
     max-width: 30rem;
     display: block;
     text-align: left;
+    padding: 1rem;
 }
 
 form input.submitBtn {
@@ -222,7 +227,7 @@ form input.submitBtn {
 
 form input.submitBtn:hover {
     background-color: #9CA3DB;
-    color: 1px 1px 4px 1px #28112B;
+    color: #28112B;
 }
 
 form label input:required {
@@ -233,12 +238,29 @@ form label input:required:valid {
     border: none;
 }
 
-div.reserve ul li {
-    text-align: left;
+div.reserve ul, div.service ul {
+    /* text-decoration: none;
+    text-align: left; */
     background-color: #E6E1C5;
     margin-left: 1rem;
+    border-left: 1px solid #28112B;
+    border-right: 1px solid #28112B;
+}
+div.reserve ul li, div.service ul li {
+    text-decoration: none;
+    text-align: left;
 }
 
-div.header {
-    grid-area: 1/1/2/-1;
+label {
+    max-width: fit-content;
+}
+
+main a {
+    color: #28112B;
+    background-color: #E6E1C5;
+    padding: 0;
+}
+main a:hover {
+    color: #E6E1C5;
+    background-color: #28112B;
 }
