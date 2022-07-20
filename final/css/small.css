@@ -167,6 +167,13 @@ div.social {
     background-image: linear-gradient(to bottom right, #E6E1C5, #9CA3DB);
 }
 
+.reservation {
+    position: absolute;
+    margin-left: -12rem;
+    margin-top: 4rem;
+    padding: .75rem;
+}
+
 /* ------------- Temples ----------------- */
 .like, .liked {
     position: absolute;
@@ -257,7 +264,7 @@ label {
 
 main a {
     color: #28112B;
-    background-color: #E6E1C5;
+    background-color: #9CA3DB;
     padding: 0;
 }
 main a:hover {
