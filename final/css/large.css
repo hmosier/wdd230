@@ -16,4 +16,8 @@
     .cards {
         grid-template-columns: repeat(auto-fit, minmax(250px, 275px));
     }
+
+    .cards img {
+        max-width: 200px;
+    }
 }
