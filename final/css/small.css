@@ -26,6 +26,7 @@ h1, h2, h3 {
     border: 1px solid #28112B;
     box-shadow: 1px 1px 4px 1px #28112B;
     margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 p {
     background-color: #E6E1C5;
@@ -245,7 +246,7 @@ form label input:required:valid {
     border: none;
 }
 
-div.reserve ul, div.service ul {
+div.reserve ul, div.service ul, div.reception ul, div.missionary ul {
     /* text-decoration: none;
     text-align: left; */
     background-color: #E6E1C5;
@@ -253,7 +254,7 @@ div.reserve ul, div.service ul {
     border-left: 1px solid #28112B;
     border-right: 1px solid #28112B;
 }
-div.reserve ul li, div.service ul li {
+div.reserve ul li, div.service ul li, div.reception ul li, div.missionary ul li {
     text-decoration: none;
     text-align: left;
 }
