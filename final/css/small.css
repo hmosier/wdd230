@@ -38,13 +38,17 @@ p {
 img {
     width: 75%;
 }
+img.hero {
+    width: 100%;
+    box-shadow: 1px 1px 4px 1px #28112B;
+}
 #logo img{
     max-width: 20%;
     border: 1px solid #28112B;
     margin-top: .5rem;
     background-color: rgb(230, 225, 197, .5);
 }
-#wire1 {
+/* #wire1 {
     max-width: 25%;
 }
 #wire2 {
@@ -52,7 +56,7 @@ img {
 }
 #wire3 {
     width: 75%
-}
+} */
 /* .persona {
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -79,6 +83,11 @@ header, footer {
     grid-template-columns: 1fr 5fr 2fr;
     line-height: 1.5rem;
     box-shadow: 1px 1px 4px 1px #28112B;
+    grid-gap: .25rem;
+}
+header span {
+    grid-area: 1/1/2/-1;
+    margin: 1rem;
 }
 nav a, header, footer, #year, .address p, footer span a, footer a {
     color: #E6E1C5;
@@ -130,6 +139,7 @@ header, footer, #year, .address p {
     text-align: center;
 }
 
+
 /* .colors {
     text-align: center;
 }
@@ -170,9 +180,13 @@ div.social {
 
 .reservation {
     position: absolute;
-    margin-left: -12rem;
-    margin-top: 4rem;
+    margin-left: -4rem;
+    margin-top: -4rem;
     padding: .75rem;
+}
+
+h2.forecast, h3.forecast {
+    font-size: 1.1rem;
 }
 
 /* ------------- Temples ----------------- */
@@ -189,6 +203,13 @@ div.social {
     padding: .5rem;
     margin: .5rem;
     box-shadow: 1px 1px 4px 1px #395c6b;
+}
+.cards.home section:nth-child(1) {
+    display: none;
+}
+
+.cards.home section:nth-child(2) {
+    display: none;
 }
 
 /* ----------- Reserve ------------------ */
@@ -264,11 +285,11 @@ label {
 }
 
 main a {
-    color: #28112B;
-    background-color: #9CA3DB;
+    color: #E6E1C5;
+    background-color: #28112B;
     padding: 0;
 }
 main a:hover {
     color: #E6E1C5;
-    background-color: #28112B;
+    background-color: #395c6b;
 }

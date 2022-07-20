@@ -32,9 +32,24 @@
         min-width: 17rem;
         max-width: 25rem;
     }
+
     main.contact {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .cards.home section:nth-child(1) {
+        display: inline;
+    }
+    section.weather {
+        display: grid;
+        grid-template-columns: 25% 75%;
+        width: 100%;
+    }
+    span#forecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 90%;
+    }
+    
 }
 

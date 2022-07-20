@@ -18,6 +18,7 @@
         <picture>
             <img class="logo" src="images/temple-logo.svg" alt="Temple Inn and Suites Logo">
         </picture>
+        <span><h1>Temple Inn and Suites</h1></span>
         <nav>
             <button id="hamburger">
                 <span>
@@ -43,24 +44,31 @@
         </div>
     </header>
 
-    <main>
-        <h1>Temple Inn and Suites</h1>
+    <main class="home">
         <div class="placeholder hero">
-            <img src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/2018/1280x800/slctemple7.jpg" alt="Salt Lake Temple">
+            <img class="hero" src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/2018/1280x800/slctemple7.jpg" alt="Salt Lake Temple">
             <a href="reservations.html" class="reservation">Make a Reservation</a>
         </div>
-        <div class="placeholder spot">
-            <div class="cards">
+        <section class="weather">
+            <div class="placeholder weather">
+                <h2 class="forecast">
+                    Current Conditions:
+                </h2>
+                <p id="current-temp"></p>
+                <p id="description"></p>
+                <p id="humidity"></p>
             </div>
-        </div>
-        <div class="placeholder weather">
-            <span id="current-temp"></span>
-            <span id="description"></span>
-            <span id="humidity"></span>
-        </div>
-        <div class="placeholder forecast">
-            <span id="forecast"></span>
-            <div id="openweathermap-widget-11"></div>
+            <div class="placeholder forecast">
+                <h2 class="forecast">
+                    3 Day Forecast:
+                </h2>
+                <span id="forecast"></span>
+            </div>
+        </section>
+        <div class="placeholder spot">
+            <h2>Temple Information</h2>
+            <div class="cards home">
+            </div>
         </div>
     </main>
     <footer>
@@ -84,7 +92,5 @@
     <script src="js/temple-spotlight.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/forecast.js"></script>
-
-<script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script><script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];  window.myWidgetParam.push({id: 11,cityid: '4348599',appid: '2c5b9238c69ab8caead4ac1eaebe1cb0',units: 'imperial',containerid: 'openweathermap-widget-11',  });  (function() {var script = document.createElement('script');script.async = true;script.charset = "utf-8";script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();</script>
     </body>
 </html>
