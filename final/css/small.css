@@ -108,13 +108,13 @@ header, footer, #year, .address p {
     margin: 0;
     padding: 0;
 }
-div.social {
+/* div.social {
     border: none;
     box-shadow: none;
     display: grid;
     grid-template-columns: 33% 33% 34%;
     width: 125%;
-}
+} */
 
 .logo {
     width: 100%;
