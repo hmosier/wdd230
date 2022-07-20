@@ -51,11 +51,16 @@
         </div>
         <div class="placeholder spot">
             <div class="cards">
-
             </div>
         </div>
         <div class="placeholder weather">
-
+            <span id="current-temp"></span>
+            <span id="description"></span>
+            <span id="humidity"></span>
+        </div>
+        <div class="placeholder forecast">
+            <span id="forecast"></span>
+            <div id="openweathermap-widget-11"></div>
         </div>
     </main>
     <footer>
@@ -78,5 +83,8 @@
     <script src="js/temple-footer.js"></script>
     <script src="js/temple-spotlight.js"></script>
     <script src="js/weather.js"></script>
+    <script src="js/forecast.js"></script>
+
+<script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script><script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];  window.myWidgetParam.push({id: 11,cityid: '4348599',appid: '2c5b9238c69ab8caead4ac1eaebe1cb0',units: 'imperial',containerid: 'openweathermap-widget-11',  });  (function() {var script = document.createElement('script');script.async = true;script.charset = "utf-8";script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();</script>
     </body>
 </html>

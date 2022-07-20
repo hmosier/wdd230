@@ -1,8 +1,6 @@
-const currentTemp = document.querySelector('#current-temp');
-const description = document.querySelector('#description');
-const humidity = document.querySelector("#humidity");
+const forecast = document.querySelector('#forecast')
 
-const url = "https://api.openweathermap.org/data/2.5/weather?lat=38.9807&lon=-77.1003&appid=2c5b9238c69ab8caead4ac1eaebe1cb0&units=imperial"
+const url = "https://api.openweathermap.org/data/2.5/forecast?lat=38.9807&lon=-77.1003&appid=2c5b9238c69ab8caead4ac1eaebe1cb0&units=imperial"
 
 async function apiFetch() {
     const response = await fetch(url);
@@ -14,9 +12,8 @@ async function apiFetch() {
     }
 }
 
-
 function  displayResults(weatherData) {
-    currentTemp.innerHTML = `Current Temperature: <strong>${weatherData.main.temp.toFixed(1)}&#176F</strong>`;
+    forecast.innerHTML = `<p>Tomorrow's High: <strong>${weatherData.main.temp_max.toFixed(1)}&#176F</strong></p>`;
   
     const desc = weatherData.weather[0].description;
   
