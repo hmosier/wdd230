@@ -1,13 +1,13 @@
 @media only screen  and (min-width: 45rem) {
     .cards {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 275px));
+        grid-template-columns: repeat(auto-fit, minmax(350px, 375px));
         grid-gap: .25rem;
         margin: 0;
     }
     
     .cards img {
-        min-width: 225px;
+        min-width: 325px;
     }
 
     .like, .liked {

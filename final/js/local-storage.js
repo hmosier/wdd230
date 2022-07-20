@@ -10,7 +10,7 @@ likeBtn.addEventListener("click", () => {
 unlikeBtn.addEventListener("click", () => {
     display.classList.add("like");
     display.classList.remove("liked");
-    localStorage.setItem = ("storedLike", "like")
+    localStorage.setItem = ("storedLike", "like");
 });
 
 window.addEventListener('DOMContentLoaded', e => {
