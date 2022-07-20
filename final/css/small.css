@@ -49,7 +49,7 @@ header, footer {
     box-shadow: 1px 1px 4px 1px #28112B;
     grid-gap: .25rem;
 }
-header span {
+h1.title {
     grid-area: 1/1/2/-1;
     margin: 1rem;
 }
