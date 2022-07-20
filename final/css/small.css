@@ -28,7 +28,7 @@ p {
     border-left: 1px solid #28112B;
 }
 .cards img {
-    max-width: 325px;
+    width: 400px;
 }
 img {
     width: 75%;

@@ -1,9 +1,11 @@
 @media only screen  and (min-width: 45rem) {
-    .cards {
+    .cards.home, .cards {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 375px));
         grid-gap: .25rem;
         margin: 0;
+    }
+    .cards.home {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 325px));
     }
 
     .like, .liked {
@@ -45,6 +47,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         width: 90%;
+    }
+
+    .cards img, .cards.home img {
+        max-width: 275px;
     }
     
 }
