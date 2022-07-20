@@ -28,7 +28,7 @@ function output(data) {
         let dedicated = document.createElement("p");
         let rededicated = document.createElement("p");
         let schedule = document.createElement("p");
-        let heart = document.createElement("span");
+        let heart = document.createElement("button");
         let liked = document.createElement("span");
 
         name.textContent = temple.name;
@@ -73,5 +73,3 @@ function output(data) {
         }
     );
 }
-
-// const display = document.querySelector(".cards")
